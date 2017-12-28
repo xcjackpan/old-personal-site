@@ -470,7 +470,100 @@ body, html {
 	color: black;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 800px) and (orientation: landscape) {
+	.resume {
+		position: relative;
+		height: auto;
+		background-color: white;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		color: black;
+	}
+
+	.col1 {
+		width: 100%;
+	}
+
+	.col1 h1 {
+		padding: 30px 40px 40px 70px;
+		font-size: 40px;
+		text-align: left;
+		float: left;
+	}
+
+	.tutor p, .chroma p  {
+		clear: both;
+		padding: 0px 50px 5px 70px;
+		font-size: 22px;
+	}
+
+	.tutor ul {
+		padding: 5px 60px 20px 90px;
+		font-size: 18px;
+	}
+
+	.lifeguard p, .debate p {
+		clear: both;
+		padding: 15px 70px;
+		font-size: 22px;
+	}
+
+	.lifeguard ul, .debate ul, .chroma ul {
+		padding: 5px 60px 20px 90px;
+		font-size: 18px;
+	}
+
+	.col2 {
+		width: 100%;
+	}
+
+	.col2 h1 {
+		padding: 30px 40px 40px 70px;
+		font-size: 40px;
+		text-align: left;
+		float: left;
+	}
+
+	.education p {
+		clear: both;
+		padding: 0px 50px 5px 70px;
+		font-size: 22px;
+	}
+
+	.awards ul {
+		padding: 5px 60px 0px 90px;
+		font-size: 18px;
+		clear: both;
+	}
+
+	.skills p, .contact p {
+		clear: both;
+		padding: 0px 50px 5px 70px;
+		font-size: 22px;
+	}
+
+	#experience-with {
+		clear: both;
+		padding: 4px 50px 5px 70px;
+		font-size: 18px;
+	}
+
+	.res-nav ul {
+		margin: 0px 0px;
+		line-height: 1.0;
+		padding: 30px 30px 50px 0px;
+		font-size: 50px;
+	}
+
+	.res-nav li {
+		display: inline;
+		text-align: center;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 25px;
+	}
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 800px) and (orientation: portrait) {
 	.resume {
 		position: relative;
 		height: auto;
@@ -663,7 +756,54 @@ body, html {
 	text-decoration: none;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 800px) and (orientation: landscape) {
+
+	.blog h1 {
+		text-align: center;
+		padding: 40px 10px;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 60px;
+	}
+
+	.blog h2 {
+		text-align: center;
+		padding: 40px 10px 40px 5px;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 18px;
+	}
+
+
+	.post1 h1 {
+		text-align: left;
+		padding: 20px 50px 10px 100px;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 18px;
+	}
+
+	.post1 h2 {
+		text-align: left;
+		padding: 0px 50px 10px 100px;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 14px;
+	}
+
+	.post1 p {
+		text-align: left;
+		padding: 5px 50px 10px 100px;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 22px;
+		line-height: 1.4;
+	}
+
+	.blog-nav li {
+		display: inline;
+		text-align: center;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 20px;
+	}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 800px) and (orientation: portrait) {
 
 	.blog h2 {
 		text-align: center;
