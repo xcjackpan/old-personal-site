@@ -94,7 +94,33 @@
 	line-height: 1.4;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 800px) and (orientation: landscape) {
+
+	.post1 h1 {
+		text-align: left;
+		padding: 20px 20px 10px 20px;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 18px;
+	}
+
+	.post1 h2 {
+		text-align: left;
+		padding: 0px 20px 10px 20px;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 16px;
+	}
+
+	.post1 p {
+		text-align: left;
+		padding: 5px 20px 10px 20px;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 14px;
+		line-height: 1.4;
+	}
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 800px) and (orientation: portrait) {
 
 	.post1 h1 {
 		text-align: left;
