@@ -1,0 +1,397 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body, html {
+	height: 100%;
+}
+
+.space {
+	z-index: 0;
+	background-image: url("../img/space.jpg");
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.banner h1 {
+	z-index: 2;
+	text-align: center;
+	color: white;
+	position: absolute;
+	top: 350px;
+	width: 100%;
+	font-family: 'Raleway', 'Century Gothic', 'Arial';
+	font-size: 74px;
+	line-height: 50px;
+	letter-spacing: 3px;
+	text-shadow: rgba(0, 0, 0, 10) 5px 5px 2px;
+}
+
+.home-nav {
+	z-index: 2;
+	top: 450px;
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+	text-align: center;
+}
+
+.home-nav ul {
+	margin: 0px 0px;
+	line-height: 1.4;
+	padding-left: 0;
+	padding-right: 0;
+	font-size: 0;
+}
+
+.home-nav li {
+	display: inline;
+	text-align: center;
+	font-family: 'Raleway', 'Century Gothic', 'Arial';
+	font-size: 30px;
+}
+
+.home-nav li a {
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 30px;
+	padding-left: 30px;
+	color: #d3d3d3;
+	text-decoration: none;
+	text-shadow: rgba(0, 0, 0, 10) 3px 3px 1px
+}
+
+.home-nav li a:hover {
+	color: white;
+}
+
+.about-me {
+	position: relative;
+	height: 100%;
+	background-color: white;
+	text-align: center;
+	font-family: 'Raleway', 'Century Gothic', 'Arial';
+	color: black;
+	overflow: hidden;
+}
+
+.head img {
+	margin-top: 30px;
+	margin-bottom: 15px;
+	width: 350px;
+	height: 350px;
+	text-align: center;
+	border-radius: 50%;
+	border: solid, black, 1px;	
+}
+
+.about-me hr {
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+}
+
+.about-me p {
+	padding-left: 130px;
+	padding-right: 130px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 26px;
+	min-width: 50%;
+}
+
+.about-me a i {
+	text-align: center;
+	font-size: 25px; 
+	padding-left: 25px; 
+	padding-right: 25px;
+	color: #a9a9a9;
+	text-decoration: none;
+}
+
+.about-me a i:hover {
+	color: black;
+}
+
+.am-nav {
+	top: 750px;
+	margin-top: 40px;
+	width: 100%;
+	overflow: hidden;
+	position: static;
+	text-align: center;
+}
+
+.am-nav ul {
+	margin: 0px 0px;
+	line-height: 1.4;
+	padding-left: 0;
+	padding-right: 14px;
+	font-size: 50px;
+}
+
+.am-nav li {
+	display: inline;
+	text-align: center;
+	font-family: 'Raleway', 'Century Gothic', 'Arial';
+	font-size: 24px;
+}
+
+.am-nav li a {
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 80px;
+	padding-left: 80px;
+	color: #a9a9a9;
+	text-decoration: none;
+}
+
+.am-nav li a:hover {
+	color: black;
+}
+
+.space2 {
+	z-index: 0;
+	background-image: url("../img/space.jpg");
+	height: 200px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.resume {
+	position: relative;
+	height: 100%;
+	background-color: white;
+	font-family: 'Raleway', 'Century Gothic', 'Arial';
+	color: black;
+	overflow: hidden;
+}
+
+.col1 {
+	width: 50%;
+	float: left;
+}
+
+.col1 h1 {
+	padding: 40px 40px 10px 70px;
+	font-size: 30px;
+	text-align: left;
+	float: left;
+}
+
+.tutor p, .chroma p  {
+	clear: both;
+	padding: 0px 50px 5px 70px;
+	font-size: 22px;
+}
+
+.tutor ul {
+	padding: 5px 60px 20px 90px;
+	font-size: 20px;
+}
+
+.lifeguard p, .debate p {
+	clear: both;
+	padding: 15px 70px;
+	font-size: 22px;
+}
+
+.lifeguard ul, .debate ul, .chroma ul {
+	padding: 5px 60px 20px 90px;
+	font-size: 20px;
+}
+
+.col2 {
+	width: 50%;
+	float: left;
+}
+
+.col2 h1 {
+	padding: 40px 40px 10px 70px;
+	font-size: 30px;
+	text-align: left;
+	float: left;
+}
+
+.education p {
+	clear: both;
+	padding: 0px 50px 5px 70px;
+	font-size: 22px;
+}
+
+.awards ul {
+	padding: 5px 60px 0px 90px;
+	font-size: 20px;
+	clear: both;
+}
+
+.skills p, .contact p {
+	clear: both;
+	padding: 0px 50px 5px 70px;
+	font-size: 22px;
+}
+
+#experience-with {
+	clear: both;
+	padding: 4px 50px 5px 70px;
+	font-size: 22px;
+}
+
+.resume hr {
+	clear: both;
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 0em 15em;
+   	padding-bottom: 0px;
+   	margin-bottom: 0px;
+}
+
+.res-nav {
+	clear: both;
+	width: 100%;
+	padding-top: 0;
+	overflow: hidden;
+	position: static;
+	text-align: center;
+}
+
+.res-nav ul {
+	margin: 0px 0px;
+	line-height: 1.0;
+	padding-left: 0;
+	padding-right: 30px;
+	font-size: 50px;
+}
+
+.res-nav li {
+	display: inline;
+	text-align: center;
+	font-family: 'Raleway', 'Century Gothic', 'Arial';
+	font-size: 18px;
+}
+
+.res-nav li a {
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 80px;
+	padding-left: 80px;
+	color: #a9a9a9;
+	text-decoration: none;
+}
+
+.res-nav li a:hover {
+	color: black;
+}
+
+.space3 {
+	z-index: 0;
+	background-image: url("../img/space.jpg");
+	height: 200px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.blog h1 {
+	text-align: center;
+	padding: 40px 10px;
+	font-family: 'Raleway', 'Century Gothic', 'Arial';
+	font-size: 40px;
+}
+
+.blog h2 {
+	text-align: center;
+	padding: 40px 10px;
+	font-family: 'Raleway', 'Century Gothic', 'Arial';
+	font-size: 30px;
+}
+
+.post1 {
+	width: 95%;
+}
+
+.post1 h1 {
+	text-align: left;
+	padding: 20px 140px 10px 250px;
+	font-family: 'Raleway', 'Century Gothic', 'Arial';
+	font-size: 35px;
+}
+
+.post1 h2 {
+	text-align: left;
+	padding: 0px 140px 10px 250px;
+	font-family: 'Raleway', 'Century Gothic', 'Arial';
+	font-size: 25px;
+}
+
+.post1 p {
+	text-align: left;
+	padding: 5px 140px 10px 250px;
+	font-family: 'Raleway', 'Century Gothic', 'Arial';
+	font-size: 20px;
+	line-height: 1.4;
+}
+
+.blog a {
+	color: black;
+	text-decoration: none;
+}
+
+.blog a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.blog-nav {
+	clear: both;
+	width: 100%;
+	padding-top: 0;
+	overflow: hidden;
+	position: static;
+	text-align: center;
+}
+
+.blog-nav ul {
+	margin: 0px 0px 30px 40px;
+	line-height: 1.0;
+	padding-left: 0;
+	padding-right: 30px;
+	font-size: 50px;
+}
+
+.blog-nav li {
+	display: inline;
+	text-align: center;
+	font-family: 'Raleway', 'Century Gothic', 'Arial';
+	font-size: 20px;
+}
+
+.blog-nav li a {
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 80px;
+	padding-left: 80px;
+	color: #a9a9a9;
+	text-decoration: none;
+}
+
+.blog-nav li a:hover {
+	color: black;
+}

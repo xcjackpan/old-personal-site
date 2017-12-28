@@ -1,0 +1,95 @@
+<!doctype HTML>
+<html>
+<head>
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway'>
+	<link rel='stylesheet' href='style/chromastyle.css'>
+</head>
+
+<body>
+	<div class="banner">
+		<div class="space"></div>
+
+		<a href="../blog/blog.html"><h1>[to full blog]</h1></a>
+	</div>
+
+	<div class="post">
+			<h1 href="#" style="padding-top: 55px">On Chroma and App Development</h1>
+			<h2>12/26/2017</h2>
+
+			<p>
+				I began working on Chroma about a week after I picked up Android Studio. As it turns out, you can only follow along with Youtube tutorials for so long before you end up wanting to do your own thing. At the time, I only really knew the basics of building an Android app: things like setting up a button, listening for gestures, and changing activities. So, the first challenge that I faced was one of figuring out what I could do given my limited … arsenal, for lack of a better word. 
+			</p>
+
+			<br/>
+
+			<h3>First Build</h3>
+
+			<p>
+				The initial idea for Chroma was just right in this regard. The premise is simple: the player is presented with some colorful buttons, and they must pick the button which corresponds to the text displayed at the top of the screen. If the player was correct, they would move onto the next round up until they eventually made an error. There was an added challenge in that the color of the text would be different from what the text says, for instance, the word “blue” might’ve been displayed in red font.
+			</p>
+
+			<div class="firstbuildimg">
+				<img src="img/firstbuild.png"/>
+			</div>
+			<div class="caption">
+				<p>I opted for a minimalist aesthetic mostly because I didn’t know enough to design it any other way</p>
+			</div>
+
+			<p>
+				All in all, it was meant to be as bare-bones as possible and so before long, I had a “finished” product that was actually playable. I happily pushed it onto the Google Play Store and went back to powering through Youtube tutorials. 
+			</p>
+
+			<h3>The Rework</h3>
+
+			<p>
+				I revisited Chroma a little while later and decided to try to fully flesh it out as an Android application. This was particularly fun because looking back at my old work really gave me an opportunity to re-evaluate what I had learned over the last few weeks. My old algorithm for generating the colors and text per round was fun to revisit (and then redo because it was hilariously convoluted), and I redesigned most of the layouts to make it feel more “polished”. I did keep the minimalist aesthetic since I sort of liked the poetry behind a game based around colors having a rather blank motif. Also, it was pretty.
+			</p>
+
+			<div class="secondbuildimg">
+				<img src="img/secondbuild.png"/>
+			</div>
+			<div class="caption">
+				<p>Some snazzy new animations, a new game mode, and an actual timer</p>
+			</div>
+
+			<h3>A Surprising Problem</h3>
+
+			<p>
+				If any one thing is worth highlighting during the rework process, it’s the amount of trouble I went through to get the in-app music to behave. I was already familiar with MediaPlayer objects in Android, so I was confident enough that I set aside an hour before dinner to slide in some groovy music. It ended up taking me two days to get completely right. The first part of the issue was that MediaPlayer on its own does not play well with the Android activity life cycle. One of the most infuriating problems I encountered because of this was that the music wouldn’t stop playing when you left the app. 
+
+				<br/>
+				<br/>
+				<br/>
+
+				The solution ended up being a new class which keeps track of the activity life-cycle and mute settings to properly determine when to start, continue, or stop playing music. This issue, coupled with some other minor problems in terms of audio focus, probably took the most time to resolve during the rework of Chroma. As a side note, I would just like to say that the very worst thing about debugging a process that has to do with music is that while you’re testing your changes, you end up listening to the same first 5 seconds of a song over and over and over again.
+			</p>
+
+			<div class="musicmanagerimg">
+				<img src="img/musicmanager.png"/>
+			</div>
+			<div class="caption">
+				<p>I took this screenshot to very excitedly send to my friends when it finally ended up working.</p>
+			</div>
+
+			<h3>Final Remarks</h3>
+
+			<p style="padding-bottom: 50px">
+				Building Chroma was a great experience that started as a way for me to test myself with using Android Studio. I learned a great deal about app development and as cliché as it sounds, I feel that I appreciate the apps that I have on my smartphone a great deal more. Although to this day, whenever I bust out my smartphone to play a round of Chroma – mostly for nostalgia’s sake – I have to keep the in-game music muted.
+
+				<br/>
+				<br/>
+				<br/>
+
+				Check out Chroma on the Google Play Store: <a href="goo.gl/a7Pou3">goo.gl/a7Pou3</a>
+				<br/>
+				Check out Chroma on GitHub: <a href="https://github.com/xcjackpan/chroma">https://github.com/xcjackpan/chroma</a>
+			</p>
+	</div>
+
+	<div class="banner">
+		<div class="space"></div>
+	</div>
+
+</body>
+
+</html>
