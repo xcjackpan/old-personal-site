@@ -394,4 +394,5 @@ body, html {
 
 .blog-nav li a:hover {
 	color: black;
+	text-decoration: none;
 }
