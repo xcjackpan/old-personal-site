@@ -100,7 +100,7 @@
 	padding: 40px 10px 40px 40px;
 	font-family: 'Raleway', 'Century Gothic', 'Arial';
 	font-size: 20px;
-	color: #a9a9a9
+	color: #a9a9a9;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 800px) and (orientation: landscape) {
