@@ -71,6 +71,39 @@ body, html {
 	color: white;
 }
 
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	.banner h1 {
+		z-index: 2;
+		text-align: center;
+		color: white;
+		position: absolute;
+		top: 700px;
+		width: 100%;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 100px;
+		line-height: 50px;
+		letter-spacing: 3px;
+		text-shadow: rgba(0, 0, 0, 10) 5px 5px 2px;
+	}
+
+	.home-nav {
+		z-index: 2;
+		top: 800px;
+		width: 100%;
+		overflow: hidden;
+		position: absolute;
+		text-align: center;
+	}
+
+	.home-nav li {
+		display: inline;
+		text-align: center;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 56px;
+	}
+}
+
 .about-me {
 	position: relative;
 	height: 100%;
@@ -158,6 +191,45 @@ body, html {
 
 .am-nav li a:hover {
 	color: black;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	.head img {
+		margin-top: 300px;
+		margin-bottom: 50px;
+		width: 500px;
+		height: 500px;
+		text-align: center;
+		border-radius: 50%;
+		border: solid, black, 1px;	
+	}
+
+	.about-me p {
+		padding-left: 130px;
+		padding-right: 130px;
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		font-size: 40px;
+		min-width: 50%;
+	}	
+
+	.about-me a i {
+		text-align: center;
+		font-size: 45px; 
+		padding-left: 25px; 
+		padding-right: 25px;
+		color: #a9a9a9;
+		text-decoration: none;
+	}	
+
+	.am-nav li {
+		display: inline;
+		text-align: center;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 40px;
+	}
+
 }
 
 .space2 {
@@ -298,6 +370,100 @@ body, html {
 	color: black;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	.resume {
+		position: relative;
+		height: auto;
+		background-color: white;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		color: black;
+	}
+
+	.col1 {
+		width: 100%;
+	}
+
+	.col1 h1 {
+		padding: 80px 40px 40px 70px;
+		font-size: 80px;
+		text-align: left;
+		float: left;
+	}
+
+	.tutor p, .chroma p  {
+		clear: both;
+		padding: 0px 50px 5px 70px;
+		font-size: 23px;
+	}
+
+	.tutor ul {
+		padding: 5px 60px 20px 90px;
+		font-size: 18px;
+	}
+
+	.lifeguard p, .debate p {
+		clear: both;
+		padding: 15px 70px;
+		font-size: 23px;
+	}
+
+	.lifeguard ul, .debate ul, .chroma ul {
+		padding: 5px 60px 20px 90px;
+		font-size: 18px;
+	}
+
+	.col2 {
+		width: 100%;
+	}
+
+	.col2 h1 {
+		padding: 80px 40px 40px 70px;
+		font-size: 80px;
+		text-align: left;
+		float: left;
+	}
+
+	.education p {
+		clear: both;
+		padding: 0px 50px 5px 70px;
+		font-size: 23px;
+	}
+
+	.awards ul {
+		padding: 5px 60px 0px 90px;
+		font-size: 18px;
+		clear: both;
+	}
+
+	.skills p, .contact p {
+		clear: both;
+		padding: 0px 50px 5px 70px;
+		font-size: 23px;
+	}
+
+	#experience-with {
+		clear: both;
+		padding: 4px 50px 5px 70px;
+		font-size: 18px;
+	}
+
+	.res-nav ul {
+		margin: 0px 0px;
+		line-height: 1.0;
+		padding: 30px 30px 50px 0px;
+		font-size: 50px;
+	}
+
+	.res-nav li {
+		display: inline;
+		text-align: center;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 35px;
+	}
+
+}
+
+
 .space3 {
 	z-index: 0;
 	background-image: url("../img/space.jpg");
@@ -395,4 +561,36 @@ body, html {
 .blog-nav li a:hover {
 	color: black;
 	text-decoration: none;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+	.post1 h1 {
+		text-align: left;
+		padding: 20px 100px 10px 200px;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 18px;
+	}
+
+	.post1 h2 {
+		text-align: left;
+		padding: 0px 140px 10px 200px;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 16px;
+	}
+
+	.post1 p {
+		text-align: left;
+		padding: 5px 100px 10px 200px;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 14px;
+		line-height: 1.4;
+	}
+
+	.blog-nav li {
+		display: inline;
+		text-align: center;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 35px;
+	}
 }

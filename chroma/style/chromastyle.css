@@ -8,6 +8,7 @@
 	z-index: 0;
 	background-image: url("../img/space.jpg");
 	height: 300px;
+	width: 100%;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -80,4 +81,50 @@
 	padding: 5px 340px 10px 340px;
 	font-family: 'Raleway', 'Century Gothic', 'Arial';
 	font-size: 17px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+	.post h1 {
+		text-align: center;
+		padding: 5px 80px 10px 80px;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 35px;
+	}
+
+	.post h2 {
+		text-align: center;
+		padding: 0px 80px 40px 80px;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 25px;
+	}
+
+	.post h3 {
+		text-align: left;
+		padding: 40px 80px 15px 80px;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 25px;
+	}
+
+	.post p {
+		text-align: left;
+		padding: 5px 80px 10px 80px;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 20px;
+		line-height: 1.4;
+	}
+
+	.firstbuildimg img, .secondbuildimg img, .musicmanagerimg img {
+		width: 80%;
+		height: 80%;
+		padding: 50px 0px 20px 0px;
+	}
+
+	.caption p {
+		color: #a9a9a9;
+		text-align: center;
+		padding: 5px 80px 10px 80px;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 12px;
+	}
 }
