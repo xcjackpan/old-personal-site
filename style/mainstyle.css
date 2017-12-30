@@ -352,85 +352,13 @@ body, html {
 	color: black;
 }
 
-.col1 {
-	width: 50%;
-	float: left;
+.full-resume {
+	width: 100%;
+	text-align: center;
 }
 
-.col1 h1 {
-	padding: 40px 40px 10px 70px;
-	font-size: 30px;
-	text-align: left;
-	float: left;
-}
-
-.tutor p, .chroma p  {
-	clear: both;
-	padding: 0px 50px 5px 70px;
-	font-size: 22px;
-}
-
-.tutor ul {
-	padding: 5px 60px 20px 90px;
-	font-size: 20px;
-}
-
-.lifeguard p, .debate p {
-	clear: both;
-	padding: 15px 70px;
-	font-size: 22px;
-}
-
-.lifeguard ul, .debate ul, .chroma ul {
-	padding: 5px 60px 20px 90px;
-	font-size: 20px;
-}
-
-.col2 {
-	width: 50%;
-	float: left;
-}
-
-.col2 h1 {
-	padding: 40px 40px 10px 70px;
-	font-size: 30px;
-	text-align: left;
-	float: left;
-}
-
-.education p {
-	clear: both;
-	padding: 0px 50px 5px 70px;
-	font-size: 22px;
-}
-
-.awards ul {
-	padding: 5px 60px 0px 90px;
-	font-size: 20px;
-	clear: both;
-}
-
-.skills p, .contact p {
-	clear: both;
-	padding: 0px 50px 5px 70px;
-	font-size: 22px;
-}
-
-#experience-with {
-	clear: both;
-	padding: 4px 50px 5px 70px;
-	font-size: 22px;
-}
-
-.resume hr {
-	clear: both;
-	display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 0em 15em;
-   	padding-bottom: 0px;
-   	margin-bottom: 0px;
+.resume img {
+	width: 70%;
 }
 
 .res-nav {
@@ -445,7 +373,7 @@ body, html {
 .res-nav ul {
 	margin: 0px 0px;
 	line-height: 0.7	;
-	padding: 10px 30px 20px 0px;
+	padding: 10px 30px 50px 0px;
 	font-size: 50px;
 }
 
@@ -453,7 +381,7 @@ body, html {
 	display: inline;
 	text-align: center;
 	font-family: 'Raleway', 'Century Gothic', 'Arial';
-	font-size: 18px;
+	font-size: 24px;
 }
 
 .res-nav li a {
@@ -479,74 +407,6 @@ body, html {
 		color: black;
 	}
 
-	.col1 {
-		width: 100%;
-	}
-
-	.col1 h1 {
-		padding: 30px 40px 40px 70px;
-		font-size: 40px;
-		text-align: left;
-		float: left;
-	}
-
-	.tutor p, .chroma p  {
-		clear: both;
-		padding: 0px 50px 5px 70px;
-		font-size: 22px;
-	}
-
-	.tutor ul {
-		padding: 5px 60px 20px 90px;
-		font-size: 18px;
-	}
-
-	.lifeguard p, .debate p {
-		clear: both;
-		padding: 15px 70px;
-		font-size: 22px;
-	}
-
-	.lifeguard ul, .debate ul, .chroma ul {
-		padding: 5px 60px 20px 90px;
-		font-size: 18px;
-	}
-
-	.col2 {
-		width: 100%;
-	}
-
-	.col2 h1 {
-		padding: 30px 40px 40px 70px;
-		font-size: 40px;
-		text-align: left;
-		float: left;
-	}
-
-	.education p {
-		clear: both;
-		padding: 0px 50px 5px 70px;
-		font-size: 22px;
-	}
-
-	.awards ul {
-		padding: 5px 60px 0px 90px;
-		font-size: 18px;
-		clear: both;
-	}
-
-	.skills p, .contact p {
-		clear: both;
-		padding: 0px 50px 5px 70px;
-		font-size: 22px;
-	}
-
-	#experience-with {
-		clear: both;
-		padding: 4px 50px 5px 70px;
-		font-size: 18px;
-	}
-
 	.res-nav ul {
 		margin: 0px 0px;
 		line-height: 1.0;
@@ -570,74 +430,6 @@ body, html {
 		background-color: white;
 		font-family: 'Raleway', 'Century Gothic', 'Arial';
 		color: black;
-	}
-
-	.col1 {
-		width: 100%;
-	}
-
-	.col1 h1 {
-		padding: 80px 40px 40px 70px;
-		font-size: 80px;
-		text-align: left;
-		float: left;
-	}
-
-	.tutor p, .chroma p  {
-		clear: both;
-		padding: 0px 50px 5px 70px;
-		font-size: 23px;
-	}
-
-	.tutor ul {
-		padding: 5px 60px 20px 90px;
-		font-size: 18px;
-	}
-
-	.lifeguard p, .debate p {
-		clear: both;
-		padding: 15px 70px;
-		font-size: 23px;
-	}
-
-	.lifeguard ul, .debate ul, .chroma ul {
-		padding: 5px 60px 20px 90px;
-		font-size: 18px;
-	}
-
-	.col2 {
-		width: 100%;
-	}
-
-	.col2 h1 {
-		padding: 80px 40px 40px 70px;
-		font-size: 80px;
-		text-align: left;
-		float: left;
-	}
-
-	.education p {
-		clear: both;
-		padding: 0px 50px 5px 70px;
-		font-size: 23px;
-	}
-
-	.awards ul {
-		padding: 5px 60px 0px 90px;
-		font-size: 18px;
-		clear: both;
-	}
-
-	.skills p, .contact p {
-		clear: both;
-		padding: 0px 50px 5px 70px;
-		font-size: 23px;
-	}
-
-	#experience-with {
-		clear: both;
-		padding: 4px 50px 5px 70px;
-		font-size: 18px;
 	}
 
 	.res-nav ul {
