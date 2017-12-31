@@ -235,7 +235,7 @@ body, html {
 	}
 
 	.head img {
-		margin-top: 20px;
+		margin-top: 40px;
 		margin-bottom: 20px;
 		width: 200px;
 		height: 200px;
@@ -358,7 +358,7 @@ body, html {
 }
 
 .resume img {
-	width: 70%;
+	width: 60%;
 }
 
 .res-nav {
@@ -407,6 +407,10 @@ body, html {
 		color: black;
 	}
 
+	.resume img {
+		width: 100%;
+	}
+
 	.res-nav ul {
 		margin: 0px 0px;
 		line-height: 1.0;
@@ -432,6 +436,10 @@ body, html {
 		color: black;
 	}
 
+	.resume img {
+		width: 100%;
+	}
+
 	.res-nav ul {
 		margin: 0px 0px;
 		line-height: 1.0;
@@ -448,7 +456,6 @@ body, html {
 
 }
 
-
 .space3 {
 	z-index: 0;
 	background-image: url("../img/space.jpg");
@@ -459,16 +466,9 @@ body, html {
 	background-size: cover;
 }
 
-.blog h1 {
-	text-align: center;
-	padding: 40px 10px;
-	font-family: 'Raleway', 'Century Gothic', 'Arial';
-	font-size: 40px;
-}
-
 .blog h2 {
 	text-align: center;
-	padding: 40px 10px;
+	padding: 30px 10px;
 	font-family: 'Raleway', 'Century Gothic', 'Arial';
 	font-size: 30px;
 }
@@ -479,7 +479,7 @@ body, html {
 
 .post1 h1 {
 	text-align: left;
-	padding: 20px 140px 10px 250px;
+	padding: 50px 140px 10px 250px;
 	font-family: 'Raleway', 'Century Gothic', 'Arial';
 	font-size: 35px;
 }
@@ -499,13 +499,20 @@ body, html {
 	line-height: 1.4;
 }
 
+.blog hr {
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+}
+
 .blog a {
 	color: black;
 	text-decoration: none;
 }
 
 .blog a:hover {
-	color: black;
 	text-decoration: underline;
 }
 
@@ -550,13 +557,6 @@ body, html {
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 800px) and (orientation: landscape) {
 
-	.blog h1 {
-		text-align: center;
-		padding: 40px 10px;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 45px;
-	}
-
 	.blog h2 {
 		text-align: center;
 		padding: 40px 10px 40px 5px;
@@ -567,9 +567,10 @@ body, html {
 
 	.post1 h1 {
 		text-align: left;
-		padding: 20px 50px 10px 100px;
+		padding: 50px 50px 5px 100px;
 		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 18px;
+		font-size: 26px;
+		line-height: 1.5;
 	}
 
 	.post1 h2 {
@@ -607,21 +608,21 @@ body, html {
 
 	.post1 h1 {
 		text-align: left;
-		padding: 20px 100px 10px 200px;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 18px;
-	}
-
-	.post1 h2 {
-		text-align: left;
-		padding: 0px 140px 10px 200px;
+		padding: 50px 100px 10px 150px;
 		font-family: 'Raleway', 'Century Gothic', 'Arial';
 		font-size: 14px;
 	}
 
+	.post1 h2 {
+		text-align: left;
+		padding: 0px 140px 10px 150px;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 12px;
+	}
+
 	.post1 p {
 		text-align: left;
-		padding: 5px 100px 10px 200px;
+		padding: 5px 100px 10px 150px;
 		font-family: 'Raleway', 'Century Gothic', 'Arial';
 		font-size: 14px;
 		line-height: 1.4;

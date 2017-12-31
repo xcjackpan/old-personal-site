@@ -95,12 +95,31 @@
 }
 
 .blog h1 {
-	padding: 70px 10px 40px 40px;
+	padding: 70px 10px 5px 40px;
 	text-align: center;
-	padding: 40px 10px 40px 40px;
 	font-family: 'Raleway', 'Century Gothic', 'Arial';
 	font-size: 20px;
 	color: #a9a9a9;
+}
+
+.blog h2 {
+	padding: 0px 10px 40px 40px;
+	text-align: center;
+	font-family: 'Raleway', 'Century Gothic', 'Arial';
+	font-size: 20px;
+	color: #a9a9a9;
+}
+
+.blog a {
+	text-decoration: underline;
+}
+
+.blog a:visited {
+	color: #a9a9a9;
+}
+
+.blog a:hover {
+	color: black;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 800px) and (orientation: landscape) {
