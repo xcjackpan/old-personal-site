@@ -18,6 +18,10 @@ body, html {
 	background-size: cover;
 }
 
+/* --------------- */
+/* --Home Screen-- */
+/* --------------- */
+
 .banner h1 {
 	z-index: 2;
 	text-align: center;
@@ -34,7 +38,7 @@ body, html {
 
 .home-nav {
 	z-index: 2;
-	top: 450px;
+	top: 430px;
 	width: 100%;
 	overflow: hidden;
 	position: absolute;
@@ -135,9 +139,13 @@ body, html {
 	}
 }
 
+/* ------------ */
+/* --About Me-- */
+/* ------------ */
+
 .about-me {
 	position: relative;
-	height: 100%;
+	height: auto;
 	background-color: white;
 	text-align: center;
 	font-family: 'Raleway', 'Century Gothic', 'Arial';
@@ -152,7 +160,6 @@ body, html {
 	height: 350px;
 	text-align: center;
 	border-radius: 50%;
-	border: solid, black, 1px;	
 }
 
 .about-me hr {
@@ -164,18 +171,15 @@ body, html {
 }
 
 .about-me p {
-	padding-left: 130px;
-	padding-right: 130px;
+	padding: 30px 80px 30px 80px;
 	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	font-size: 24px;
+	font-size: 20px;
 	min-width: 50%;
 }
 
 .about-me a i {
 	text-align: center;
-	font-size: 25px; 
+	font-size: 23px; 
 	padding-left: 25px; 
 	padding-right: 25px;
 	color: #a9a9a9;
@@ -187,8 +191,7 @@ body, html {
 }
 
 .am-nav {
-	top: 750px;
-	margin-top: 40px;
+	padding: 0px 0px 30px 0px;
 	width: 100%;
 	overflow: hidden;
 	position: static;
@@ -199,7 +202,6 @@ body, html {
 	margin: 0px 0px;
 	line-height: 1.4;
 	padding-left: 0;
-	padding-right: 14px;
 	font-size: 50px;
 }
 
@@ -207,7 +209,7 @@ body, html {
 	display: inline;
 	text-align: center;
 	font-family: 'Raleway', 'Century Gothic', 'Arial';
-	font-size: 24px;
+	font-size: 20px;
 }
 
 .am-nav li a {
@@ -222,6 +224,15 @@ body, html {
 
 .am-nav li a:hover {
 	color: black;
+}
+
+
+@media only screen and (max-width: 1370) {
+
+	.about-me p {
+		font-size: 2px;
+	}
+	
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 800px) and (orientation: landscape) {
@@ -337,12 +348,16 @@ body, html {
 .space2 {
 	z-index: 0;
 	background-image: url("../img/space.jpg");
-	height: 200px;
+	height: 300px;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+/* ---------- */
+/* --Resume-- */
+/* ---------- */
 
 .resume {
 	position: relative;
@@ -350,6 +365,10 @@ body, html {
 	background-color: white;
 	font-family: 'Raleway', 'Century Gothic', 'Arial';
 	color: black;
+}
+
+#filler {
+	height: 40px;
 }
 
 .col1 {
@@ -609,15 +628,22 @@ body, html {
 
 }
 
-
 .space3 {
 	z-index: 0;
 	background-image: url("../img/space.jpg");
-	height: 200px;
+	height: 300px;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+/* -------- */
+/* --Blog-- */
+/* -------- */
+
+#filler-blog {
+	height: 40px;
 }
 
 .blog h2 {
