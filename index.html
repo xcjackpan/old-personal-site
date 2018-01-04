@@ -2,28 +2,33 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="style/mainstyle.css">
 	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway'>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script type="text/javascript" src="scripts/script.js"></script>
+	<link rel="stylesheet" href="style/mainstyle.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>Jack Pan</title>
 </head>
 
 <body>
+
+<div class="nav-bar">
+	<a href="#home"><img src="./img/logo.png"/></a>
+
+	<ul class="nav-list">
+		<li><a href="#about-me">About Me</a></li>
+		<li><a href="#resume">Resume</a></li>
+		<li><a href="#blog">Blog</a></li>
+		<li><a class="icon" onclick="myFunction()">&#9776;</a></li>
+	</ul>
+</div>
+
 <div class="space" id="home"></div>
 
 <div class="banner">
 	<h1>Hi, I'm Jack</h1>
-</div>
-
-<div class="home-nav">
-	<ul>
-		<li><a href="#about-me">About Me</a></li>
-		<li><a href="#resume">Resume</a></li>
-		<li><a href="#blog">Blog</a></li>
-	</ul>
 </div>
 
 <div class="about-me" id="about-me">
@@ -39,23 +44,18 @@
 	<a href="https://github.com/xcjackpan"><i class="fa fa-github-alt"></i></a>
 	<a href="https://www.facebook.com/jack.pan.77"><i class="fa fa-facebook" style="padding-left: 30px"></i></a>
 
-
 	<hr/>
 
-	<div class="am-nav">
-		<ul>
-			<li><a href="#home" style="padding-right: 65px">Home</a></li>
-			<li><a href="#resume">Resume</a></li>
-			<li><a href="#blog" style="padding-left: 70px">Blog</a></li>
-		</ul>
+	<div id="filler-am">
 	</div>
+
 </div>
 
 <div class="space2"></div>
 
 <div class="resume" id="resume">
 
-	<div id="filler">
+	<div id="filler-res">
 	</div>
 
 	<hr/>
@@ -67,7 +67,7 @@
 
 			<p>xcjackpan@uwaterloo.ca  |  xcjackpan.github.io
 				<br/>
-			github.com/xcjackpan  |  linkedin.com/in/xcjackpan</p>
+			<a href="https://www.github.com/xcjackpan">github.com/xcjackpan</a>  |  <a href="https://www.linkedin.com/in/xcjackpan">linkedin.com/in/xcjackpan</a></p>
 		</div>
 
 		<div class="education">
@@ -89,11 +89,11 @@
 			<h2>Personal Website & Blog  |  xcjackpan.github.io</h2>
 			<p>Website hosted by Github Pages with a regularly updated personal blog. Designed and built layout from scratch using HTML and CSS.</p>
 
-			<h2>Chroma  |  github.com/xcjackpan/Chroma  |  goo.gl/a7Pou3</h2>
+			<h2>Chroma  |  <a href="https://www.github.com/xcjackpan/Chroma">github.com/xcjackpan/Chroma</a>  |  <a href="https://www.goo.gl/a7Pou3">goo.gl/a7Pou3</a></h2>
 			<p>Smartphone game for Android written in Java and XML using Android Studio. Remembers high scores and user settings from previous
 			sessions. Manages proper audio focus. Currently on the Google Play Store.</p>
 
-			<h2>Tap Counter  |  github.com/xcjackpan/TapCounter</h2>
+			<h2>Tap Counter  |  <a href="https://www.github.com/xcjackpan/TapCounter">github.com/xcjackpan/TapCounter</a></h2>
 			<p>Android app which mimics a tally counter. Allows user to count by different integers and toggle negatives. Written in Java and XML using Android Studio</p>
 		</div>
 		
@@ -139,19 +139,54 @@
 
 	<hr/>
 
-	<p id="pdf">A PDF version of my resume can be found <a href="img/resume.pdf">here</a></p>
-
-	<div class="res-nav">
-		<ul>
-			<li><a href="#home" style="padding-right: 58px">Home</a></li>
-			<li><a href="#about-me">About Me</a></li>
-			<li><a href="#blog" style="padding-left: 70px">Blog</a></li>
-		</ul>
+	<div class="pdf">
+		<p id="pdf">A PDF version of my resume can be found <a href="img/resume.pdf">here</a></p>
 	</div>
 
 </div>
 
 <div class="space3"></div>
+
+<div class="portfolio">
+
+	<div id="filler-folio">
+	</div>
+
+	<div class="folio-box">
+		<div class="container">
+			<img src="./img/chromalogo.png"/>
+			<div class="overlay">
+				<div class="text">Color-matching game</div>
+			</div>
+		</div>
+		<p>Chroma</p>
+		<p>Android Studio</p>
+	</div>
+
+	<div class="folio-box">
+		<div class="container">
+			<img src="./img/chromalogo.png"/>
+			<div class="overlay">
+				<div class="text">Color-matching game</div>
+			</div>
+		</div>
+		<p>Chroma</p>
+		<p>Android Studio</p>
+	</div>
+
+	<div class="folio-box">
+		<div class="container">
+			<img src="./img/chromalogo.png"/>
+			<div class="overlay">
+				<div class="text">Color-matching game</div>
+			</div>
+		</div>
+		<p>Chroma</p>
+		<p>Android Studio</p>
+	</div>
+</div>
+
+<div class="space4"></div>
 
 <div class="blog" id="blog">
 
@@ -170,14 +205,6 @@
 		<hr/>
 
 		<h2><a href="blog/blog.html">See all posts...</a></h2>
-
-	<div class="blog-nav">
-		<ul>
-			<li><a href="#home" style="padding-right: 40px">Home</a></li>
-			<li><a href="#about-me">About Me</a></li>
-			<li><a href="#resume" style="padding-left: 40px">Resume</a></li>
-		</ul>
-	</div>
 
 </div>
 

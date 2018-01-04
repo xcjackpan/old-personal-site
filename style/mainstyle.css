@@ -8,6 +8,60 @@ body, html {
 	height: 100%;
 }
 
+.nav-bar {
+	z-index: 10;
+	width: 100%;
+	overflow: hidden;
+	position: fixed;
+	text-align: right;
+	background-color: black;
+	opacity: 0.8;
+	padding: 4px 0px 4px 10px;
+}
+
+.nav-bar img {
+	display: inline;
+	float: left;
+	min-width: 45px;
+	width: 2.5%;
+	height: auto;
+	padding: 2px 5px 2px 5px;
+	margin: 0 0;
+}
+
+.nav-bar ul {
+	margin: 0px 0px;
+	line-height: 1.4;
+	padding-left: 0;
+	padding-right: 0;
+	font-size: 0;
+}
+
+.nav-bar li {
+	display: inline;
+	font-family: 'Raleway', 'Century Gothic', 'Arial';
+	font-size: 28px;
+}
+
+.nav-bar li a {
+	text-align: center;
+	padding: 4px 80px 0px 80px;
+	color: #d3d3d3;
+	text-decoration: none;
+}
+
+.nav-bar li a:hover {
+	color: white;
+}
+
+.nav-bar .icon {
+	display: none;
+}
+
+/* --------------- */
+/* --Home Screen-- */
+/* --------------- */
+
 .space {
 	z-index: 0;
 	background-image: url("../img/space.jpg");
@@ -18,125 +72,18 @@ body, html {
 	background-size: cover;
 }
 
-/* --------------- */
-/* --Home Screen-- */
-/* --------------- */
-
 .banner h1 {
 	z-index: 2;
-	text-align: center;
 	color: white;
 	position: absolute;
-	top: 350px;
-	width: 100%;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	font-family: 'Raleway', 'Century Gothic', 'Arial';
-	font-size: 74px;
-	line-height: 50px;
+	font-size: 90px;
 	letter-spacing: 3px;
 	text-shadow: rgba(0, 0, 0, 10) 5px 5px 2px;
-}
-
-.home-nav {
-	z-index: 2;
-	top: 430px;
-	width: 100%;
-	overflow: hidden;
-	position: absolute;
-	text-align: center;
-}
-
-.home-nav ul {
-	margin: 0px 0px;
-	line-height: 1.4;
-	padding-left: 0;
-	padding-right: 0;
-	font-size: 0;
-}
-
-.home-nav li {
-	display: inline;
-	text-align: center;
-	font-family: 'Raleway', 'Century Gothic', 'Arial';
-	font-size: 30px;
-}
-
-.home-nav li a {
-	text-align: center;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	padding-right: 30px;
-	padding-left: 30px;
-	color: #d3d3d3;
-	text-decoration: none;
-	text-shadow: rgba(0, 0, 0, 10) 3px 3px 1px
-}
-
-.home-nav li a:hover {
-	color: white;
-}
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 800px) and (orientation: landscape) {
-	.banner h1 {
-		z-index: 2;
-		text-align: center;
-		color: white;
-		position: absolute;
-		top: 200px;
-		width: 100%;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 90px;
-		line-height: 50px;
-		letter-spacing: 3px;
-		text-shadow: rgba(0, 0, 0, 10) 5px 5px 2px;
-	}
-
-	.home-nav {
-		z-index: 2;
-		top: 300px;
-		width: 100%;
-		overflow: hidden;
-		position: absolute;
-		text-align: center;
-	}
-
-	.home-nav li {
-		display: inline;
-		text-align: center;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 36px;
-	}
-}
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 800px) and (orientation: portrait) {
-	.banner h1 {
-		z-index: 2;
-		text-align: center;
-		color: white;
-		position: absolute;
-		top: 700px;
-		width: 100%;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 100px;
-		line-height: 50px;
-		letter-spacing: 3px;
-		text-shadow: rgba(0, 0, 0, 10) 5px 5px 2px;
-	}
-
-	.home-nav {
-		z-index: 2;
-		top: 800px;
-		width: 100%;
-		overflow: hidden;
-		position: absolute;
-		text-align: center;
-	}
-
-	.home-nav li {
-		display: inline;
-		text-align: center;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 56px;
-	}
 }
 
 /* ------------ */
@@ -190,159 +137,8 @@ body, html {
 	color: black;
 }
 
-.am-nav {
-	padding: 0px 0px 30px 0px;
-	width: 100%;
-	overflow: hidden;
-	position: static;
-	text-align: center;
-}
-
-.am-nav ul {
-	margin: 0px 0px;
-	line-height: 1.4;
-	padding-left: 0;
-	font-size: 50px;
-}
-
-.am-nav li {
-	display: inline;
-	text-align: center;
-	font-family: 'Raleway', 'Century Gothic', 'Arial';
-	font-size: 20px;
-}
-
-.am-nav li a {
-	text-align: center;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	padding-right: 80px;
-	padding-left: 80px;
-	color: #a9a9a9;
-	text-decoration: none;
-}
-
-.am-nav li a:hover {
-	color: black;
-}
-
-
-@media only screen and (max-width: 1370) {
-
-	.about-me p {
-		font-size: 2px;
-	}
-	
-}
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 800px) and (orientation: landscape) {
-	.about-me {
-		position: relative;
-		height: auto;
-		background-color: white;
-		text-align: center;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		color: black;
-	}
-
-	.head img {
-		margin-top: 40px;
-		margin-bottom: 20px;
-		width: 200px;
-		height: 200px;
-		text-align: center;
-		border-radius: 50%;
-		border: solid, black, 1px;	
-	}
-
-	.about-me p {
-		padding-left: 130px;
-		padding-right: 130px;
-		text-align: center;
-		padding-top: 20px;
-		padding-bottom: 20px;
-		font-size: 20px;
-		min-width: 50%;
-	}	
-
-	.about-me a i {
-		text-align: center;
-		font-size: 20px; 
-		padding-left: 25px; 
-		padding-right: 25px;
-		color: #a9a9a9;
-		text-decoration: none;
-	}	
-
-	.am-nav ul {
-		margin: 0px 0px;
-		line-height: 1.4;
-		padding: 0px 14px 30px 0px;
-		font-size: 50px;
-	}
-
-	.am-nav li {
-		display: inline;
-		text-align: center;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 25px;
-	}
-
-}
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 800px) and (orientation: portrait) {
-	.about-me {
-		position: relative;
-		height: auto;
-		background-color: white;
-		text-align: center;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		color: black;
-	}
-
-	.head img {
-		margin-top: 100px;
-		margin-bottom: 50px;
-		width: 400px;
-		height: 400px;
-		text-align: center;
-		border-radius: 50%;
-		border: solid, black, 1px;	
-	}
-
-	.about-me p {
-		padding-left: 130px;
-		padding-right: 130px;
-		text-align: center;
-		padding-top: 50px;
-		padding-bottom: 50px;
-		font-size: 25px;
-		min-width: 50%;
-	}	
-
-	.about-me a i {
-		text-align: center;
-		font-size: 45px; 
-		padding-left: 25px; 
-		padding-right: 25px;
-		color: #a9a9a9;
-		text-decoration: none;
-	}	
-
-	.am-nav ul {
-		margin: 0px 0px;
-		line-height: 1.4;
-		padding: 0px 14px 40px 0px;
-		font-size: 50px;
-	}
-
-	.am-nav li {
-		display: inline;
-		text-align: center;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 35px;
-	}
-
+#filler-am {
+	height: 20px;
 }
 
 .space2 {
@@ -365,15 +161,30 @@ body, html {
 	background-color: white;
 	font-family: 'Raleway', 'Century Gothic', 'Arial';
 	color: black;
+	width: 100%;
+	overflow: hidden;
 }
 
 #filler {
-	height: 40px;
+	height: 30px;
 }
 
 .col1 {
 	width: 50%;
 	float: left;
+}
+
+.col1 a {
+	color: black;
+	text-decoration: none;
+}
+
+.col1 a:hover {
+	text-decoration: underline;
+}
+
+.col a:visited {
+	color: black;
 }
 
 .col1 h1 {
@@ -462,7 +273,7 @@ body, html {
 	text-align: center;
 	font-size: 18px;
 	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-bottom: 25px;
 	padding-right: 25px;
 }
 
@@ -474,44 +285,223 @@ body, html {
 	color: black;
 }
 
-.res-nav {
-	clear: both;
-	width: 100%;
-	padding-top: 0;
-	overflow: hidden;
-	position: static;
-	text-align: center;
+.space3 {
+	z-index: 0;
+	background-image: url("../img/space.jpg");
+	height: 300px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.res-nav ul {
-	margin: 0px 0px;
-	line-height: 0.7	;
-	padding: 10px 30px 20px 0px;
-	font-size: 50px;
+/* ------------- */
+/* --Portfolio-- */
+/* ------------- */
+
+* {
+	box-sizing: border-box;
 }
 
-.res-nav li {
-	display: inline;
+#filler-folio {
+	height: 40px;
+}
+
+.folio-box {
+	text-align: center;	
+    float: left;
+    width: 33.3333%;
+    padding: 1px;
+}
+
+.folio-box img {
+	width: 45%;
+	height: 45%;
+    text-align: center;
+}
+
+.folio-box p {
 	text-align: center;
 	font-family: 'Raleway', 'Century Gothic', 'Arial';
-	font-size: 18px;
+	font-size: 20px;
+	position: relative;
 }
 
-.res-nav li a {
+.container {
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	bottom: 100%;
+	left: 0;
+	right: 0;
+	background-color: #008CBA;
+	transform:translate(61%, 0%);	
+	overflow: hidden;
+	width: 45%;
+	height:0;
+	transition: .5s ease;
+}
+
+.container:hover .overlay {
+	bottom: 0;
+	height: 100%;
+}
+
+.text {
+	font-family: 'Raleway', 'Century Gothic', 'Arial';	
+	white-space: nowrap; 
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+/* Clear floats after the columns */
+.portfolio:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.space4 {
+	z-index: 0;
+	background-image: url("../img/space.jpg");
+	height: 300px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* -------- */
+/* --Blog-- */
+/* -------- */
+
+#filler-blog {
+	height: 25px;
+}
+
+.blog {
+	width: 100%;
+	overflow: hidden;
+}
+
+.blog h2 {
 	text-align: center;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	padding-right: 80px;
-	padding-left: 80px;
-	color: #a9a9a9;
+	padding: 30px 10px;
+	font-family: 'Raleway', 'Century Gothic', 'Arial';
+	font-size: 30px;
+}
+
+.post1 {
+	width: 95%;
+}
+
+.post1 h1 {
+	text-align: left;
+	padding: 40px 140px 10px 250px;
+	font-family: 'Raleway', 'Century Gothic', 'Arial';
+	font-size: 35px;
+}
+
+.post1 h2 {
+	text-align: left;
+	padding: 0px 140px 10px 250px;
+	font-family: 'Raleway', 'Century Gothic', 'Arial';
+	font-size: 25px;
+}
+
+.post1 p {
+	text-align: left;
+	padding: 5px 140px 10px 250px;
+	font-family: 'Raleway', 'Century Gothic', 'Arial';
+	font-size: 20px;
+	line-height: 1.4;
+}
+
+.blog hr {
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+}
+
+.blog a {
+	color: black;
 	text-decoration: none;
 }
 
-.res-nav li a:hover {
-	color: black;
+.blog a:hover {
+	text-decoration: underline;
+}
+
+/* ------------------- */
+/* ---Media Queries--- */
+/* ------------------- */
+
+@media only screen and (max-width : 840px) {
+
+	.nav-bar .icon {
+	    display: inline;
+	}
+
+	.nav-list a {
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width : 1000px) {
+
+	#filler-blog {
+		height: 10px;
+	}
+
+	.blog {
+		width: 100%;
+		overflow: hidden;
+		text-align: center;
+	}
+
+	.blog h2 {
+		text-align: center;
+		padding: 30px 10px;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 20px;
+	}
+
+	.post1 h1 {
+		text-align: left;
+		padding: 40px 15px 10px 20px;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 28px;
+	}
+
+	.post1 h2 {
+		text-align: left;
+		padding: 0px 15px 10px 20px;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 20px;
+	}
+
+	.post1 p {
+		text-align: left;
+		padding: 5px 15px 10px 20px;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 16px;
+		line-height: 1.4;
+	}
 }
 
 @media only screen and (max-width : 1147px) {
+
 	.col1 {
 		width: 100%;
 		clear: both;
@@ -552,267 +542,273 @@ body, html {
 		width: 100%;
 		clear: both;
 	}
-}
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 800px) and (orientation: landscape) {
-	.resume h1 {
-		font-size: 40px;
+}	
+
+@media screen and (max-width: 500px) and (orientation: portrait) {
+
+	.nav-bar {
+		z-index: 10;
+		width: 100%;
+		overflow: hidden;
+		position: fixed;
+		text-align: right;
+		background-color: black;
+		opacity: 0.8;
+		padding: 4px 0px 4px 10px;
 	}
 
-	.resume h2 {
-		padding-top: 20px;
-		font-size: 22px;
-	}
-
-	.resume p {
-		line-height: 1.4;
-		font-size: 15px;
-	}
-
-	#pdf {
-		font-size: 15px;
-	}
-
-	.res-nav ul {
-		margin: 0px 0px;
-		line-height: 1.0;
-		padding: 30px 30px 50px 0px;
-		font-size: 50px;
-	}
-
-	.res-nav li {
+	.nav-bar img {
 		display: inline;
+		float: left;
+		min-width: 45px;
+		width: 2.5%;
+		height: auto;
+		padding: 2px 5px 2px 5px;
+		margin: 0 0;
+	}
+
+	.nav-bar li a {
+		text-align: center;
+		padding: 4px 10px 0px 80px;
+		color: #d3d3d3;
+		text-decoration: none;
+	}
+
+	.banner h1 {
+		z-index: 2;
+		color: white;
+		position: absolute;
+		text-align: center;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 50px;
+		letter-spacing: 3px;
+		text-shadow: rgba(0, 0, 0, 10) 5px 5px 2px;
+	}
+
+	.about-me {
+		position: relative;
+		height: auto;
+		background-color: white;
 		text-align: center;
 		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 25px;
+		color: black;
+		overflow: hidden;
 	}
-}
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 800px) and (orientation: portrait) {
+	.head img {
+		margin-top: 30px;
+		margin-bottom: 15px;
+		width: 300px;
+		height: 300px;
+		text-align: center;
+		border-radius: 50%;
+	}
+
+	.about-me p {
+		padding: 30px 31px 30px 31px;
+		text-align: center;
+		font-size: 20px;
+		min-width: 50%;
+	}
+
+	#filler-am {
+		height: 20px;
+	}
+
+	.space2 {
+		z-index: 0;
+		background-image: url("../img/space.jpg");
+		height: 150px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
 	.resume {
-		padding: 0px 30px 0px 20px;
+		position: relative;
+		height: auto;
+		background-color: white;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		color: black;
+		width: 100%;
+		overflow: hidden;
 	}
 
-	.resume h1 {
-		font-size: 55px;
+	#filler-res {
+		height: 20px;
 	}
 
-	.resume h2 {
-		padding-top: 20px;
-		font-size: 35px;
+	.col1 a {
+		color: black;
+		text-decoration: none;
 	}
 
-	.resume p {
-		line-height: 1.4;
-		font-size: 17px;
+	.col1 a:hover {
+		text-decoration: underline;
+	}
+
+	.col a:visited {
+		color: black;
+	}
+
+	.col1 h1 {
+		font-variant: small-caps;
+		clear: both;
+		font-size: 24px;
+		padding: 20px 0px 0px 20px;
+	}
+
+	.col1 h2 {
+		font-size: 16px;
+		padding: 10px 0px 8px 20px;
+		float: left;
+	}
+
+	.contact p {
+		font-size: 14px;
+		padding: 10px 0px 0px 20px;
+		text-align: left;
+	}
+
+	.education h2 {
+		font-size: 16px;
+		padding: 10px 0px 5px 20px;
+	}
+
+	.education p {
+		clear: both;
+		font-size: 16px;
+		padding: 3px 30px 0px 20px;
+	}
+
+	.projects p {
+		clear: both;
+		font-size: 16px;
+		padding: 3px 30px 0px 20px;
+	}
+
+	.col2 h1 {
+		font-variant: small-caps;
+		font-size: 24px;
+		padding: 20px 35px 0px 20px;
+	}
+
+	.col2 h2 {
+		font-size: 16px;
+		padding: 10px 35px 8px 20px;
+		float: left;
+	}
+
+	.experience p {
+		clear: both;
+		font-size: 16px;
+		padding: 3px 50px 0px 20px;
+		text-align: left;
+	}
+
+	.awards p {
+		clear: both;
+		font-size: 16px;
+		padding: 15px 50px 0px 20px;
+		text-align: left;
+	}
+
+	.skills p {
+		clear: both;
+		font-size: 16px;
+		padding: 3px 50px 0px 20px;
+		text-align: left;
+	}
+
+	.resume hr {
+		clear: both;
+		display: block;
+	    height: 1px;
+	    border: 0;
+	    border-top: 1px solid #000000;
+	    margin: 1em 80px;
+	}
+
+	.pdf {
+		text-align: center;
+		padding: 0px 10px;
 	}
 
 	#pdf {
-		font-size: 14px;
-	}
-
-
-	.res-nav ul {
-		margin: 0px 0px;
-		line-height: 1.0;
-		padding: 30px 30px 50px 0px;
-		font-size: 50px;
-	}
-
-	.res-nav li {
-		display: inline;
 		text-align: center;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 32px;
+		font-size: 16px;
 	}
 
-}
+	#pdf a {
+		color: black;
+	}
 
-.space3 {
-	z-index: 0;
-	background-image: url("../img/space.jpg");
-	height: 300px;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
+	#pdf a:visited {
+		color: black;
+	}
 
-/* -------- */
-/* --Blog-- */
-/* -------- */
+	.space3 {
+		z-index: 0;
+		background-image: url("../img/space.jpg");
+		height: 150px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 
-#filler-blog {
-	height: 40px;
-}
+	.space4 {
+		z-index: 0;
+		background-image: url("../img/space.jpg");
+		height: 150px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 
-.blog h2 {
-	text-align: center;
-	padding: 30px 10px;
-	font-family: 'Raleway', 'Century Gothic', 'Arial';
-	font-size: 30px;
-}
+	#filler-blog {
+		height: 10px;
+	}
 
-.post1 {
-	width: 95%;
-}
-
-.post1 h1 {
-	text-align: left;
-	padding: 50px 140px 10px 250px;
-	font-family: 'Raleway', 'Century Gothic', 'Arial';
-	font-size: 35px;
-}
-
-.post1 h2 {
-	text-align: left;
-	padding: 0px 140px 10px 250px;
-	font-family: 'Raleway', 'Century Gothic', 'Arial';
-	font-size: 25px;
-}
-
-.post1 p {
-	text-align: left;
-	padding: 5px 140px 10px 250px;
-	font-family: 'Raleway', 'Century Gothic', 'Arial';
-	font-size: 20px;
-	line-height: 1.4;
-}
-
-.blog hr {
-	display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-}
-
-.blog a {
-	color: black;
-	text-decoration: none;
-}
-
-.blog a:hover {
-	text-decoration: underline;
-}
-
-.blog-nav {
-	clear: both;
-	width: 100%;
-	padding-top: 0;
-	overflow: hidden;
-	position: static;
-	text-align: center;
-}
-
-.blog-nav ul {
-	margin: 0px 0px 30px 40px;
-	line-height: 1.0;
-	padding-left: 0;
-	padding-right: 30px;
-	font-size: 50px;
-}
-
-.blog-nav li {
-	display: inline;
-	text-align: center;
-	font-family: 'Raleway', 'Century Gothic', 'Arial';
-	font-size: 20px;
-}
-
-.blog-nav li a {
-	text-align: center;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	padding-right: 80px;
-	padding-left: 80px;
-	color: #a9a9a9;
-	text-decoration: none;
-}
-
-.blog-nav li a:hover {
-	color: black;
-	text-decoration: none;
-}
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 800px) and (orientation: landscape) {
+	.blog {
+		width: 100%;
+		overflow: hidden;
+		text-align: center;
+	}
 
 	.blog h2 {
 		text-align: center;
-		padding: 40px 10px 40px 5px;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 18px;
-	}
-
-
-	.post1 h1 {
-		text-align: left;
-		padding: 50px 50px 5px 100px;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 26px;
-		line-height: 1.5;
-	}
-
-	.post1 h2 {
-		text-align: left;
-		padding: 0px 50px 10px 100px;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 14px;
-	}
-
-	.post1 p {
-		text-align: left;
-		padding: 5px 50px 10px 100px;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 22px;
-		line-height: 1.4;
-	}
-
-	.blog-nav li {
-		display: inline;
-		text-align: center;
+		padding: 30px 10px;
 		font-family: 'Raleway', 'Century Gothic', 'Arial';
 		font-size: 20px;
 	}
-}
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 800px) and (orientation: portrait) {
-
-	.blog h2 {
-		text-align: center;
-		padding: 40px 10px 40px 0px;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 14px;
-	}
-
 
 	.post1 h1 {
 		text-align: left;
-		padding: 50px 100px 0px 150px;
+		padding: 40px 15px 10px 20px;
 		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 18px;
-		line-height: 1.4;
+		font-size: 28px;
 	}
 
 	.post1 h2 {
 		text-align: left;
-		padding: 5px 140px 20px 150px;
+		padding: 0px 15px 10px 20px;
 		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 18px;
+		font-size: 20px;
 	}
 
 	.post1 p {
 		text-align: left;
-		padding: 5px 100px 10px 150px;
+		padding: 5px 15px 10px 20px;
 		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 14px;
+		font-size: 16px;
 		line-height: 1.4;
 	}
 
-	.blog-nav li {
-		display: inline;
-		text-align: center;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 32px;
-	}
 }
