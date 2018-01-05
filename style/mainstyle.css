@@ -508,7 +508,7 @@ body, html {
 		padding: 0 20px;
 		height: 40px;
 		text-decoration: none;
-		font-size: 22px;
+		font-size: 25px;
 	}
 
 }
@@ -601,34 +601,6 @@ body, html {
 }	
 
 @media screen and (max-width: 500px) and (orientation: portrait) {
-
-	.nav-bar {
-		z-index: 10;
-		width: 100%;
-		overflow: hidden;
-		position: fixed;
-		text-align: right;
-		background-color: black;
-		opacity: 0.8;
-		padding: 4px 0px 4px 10px;
-	}
-
-	.nav-bar img {
-		display: inline;
-		float: left;
-		min-width: 45px;
-		width: 2.5%;
-		height: auto;
-		padding: 2px 5px 2px 5px;
-		margin: 0 0;
-	}
-
-	.nav-bar li a {
-		text-align: center;
-		padding: 4px 10px 0px 80px;
-		color: #d3d3d3;
-		text-decoration: none;
-	}
 
 	.banner h1 {
 		z-index: 2;
