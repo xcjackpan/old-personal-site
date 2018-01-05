@@ -24,9 +24,9 @@ body, html {
 	display: inline;
 	float: left;
 	min-width: 45px;
-	width: 2.5%;
+	width: 2.0%;
 	height: auto;
-	padding: 2px 5px 2px 5px;
+	padding: 0px 5px 4px 5px;
 	margin: 0 0;
 }
 
