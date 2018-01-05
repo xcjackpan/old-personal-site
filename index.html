@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway'>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -14,14 +14,23 @@
 
 <body>
 
-<div class="nav-bar">
+<div class="nav-bar" id="NavBar">
 	<a href="#home"><img src="./img/logo.png"/></a>
 
-	<ul class="nav-list">
+	<ul>
 		<li><a href="#about-me">About Me</a></li>
 		<li><a href="#resume">Resume</a></li>
 		<li><a href="#blog">Blog</a></li>
-		<li><a class="icon" onclick="myFunction()">&#9776;</a></li>
+		<li>
+			<div class="mobile-menu"><a class="dropdown-link">&#9776;</a>
+				<ul class="mobile-dropdown">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about-me">About Me</a></li>
+					<li><a href="#resume">Resume</a></li>
+					<li><a href="#blog">Blog</a></li>
+				</ul>
+			</div>
+		</li>
 	</ul>
 </div>
 
@@ -146,47 +155,6 @@
 </div>
 
 <div class="space3"></div>
-
-<div class="portfolio">
-
-	<div id="filler-folio">
-	</div>
-
-	<div class="folio-box">
-		<div class="container">
-			<img src="./img/chromalogo.png"/>
-			<div class="overlay">
-				<div class="text">Color-matching game</div>
-			</div>
-		</div>
-		<p>Chroma</p>
-		<p>Android Studio</p>
-	</div>
-
-	<div class="folio-box">
-		<div class="container">
-			<img src="./img/chromalogo.png"/>
-			<div class="overlay">
-				<div class="text">Color-matching game</div>
-			</div>
-		</div>
-		<p>Chroma</p>
-		<p>Android Studio</p>
-	</div>
-
-	<div class="folio-box">
-		<div class="container">
-			<img src="./img/chromalogo.png"/>
-			<div class="overlay">
-				<div class="text">Color-matching game</div>
-			</div>
-		</div>
-		<p>Chroma</p>
-		<p>Android Studio</p>
-	</div>
-</div>
-
-<div class="space4"></div>
 
 <div class="blog" id="blog">
 
