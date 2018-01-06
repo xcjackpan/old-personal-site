@@ -55,43 +55,29 @@
 }
 
 .posts h1 {
-	text-align: center;
-	padding: 40px 10px 40px 40px;
-	font-family: 'Raleway', 'Century Gothic', 'Arial';
-	font-size: 40px;
-}
-
-.posts h2 {
-	text-align: center;
-	padding: 40px 10px;
-	font-family: 'Raleway', 'Century Gothic', 'Arial';
-	font-size: 30px;
-}
-
-.post1 {
-	width: 95%;
-}
-
-.post1 h1 {
 	text-align: left;
-	padding: 20px 140px 10px 250px;
+	padding: 20px 100px 10px 100px;
 	font-family: 'Raleway', 'Century Gothic', 'Arial';
 	font-size: 35px;
 }
 
-.post1 h2 {
+.posts h2 {
 	text-align: left;
-	padding: 0px 140px 10px 250px;
+	padding: 0px 100px 10px 100px;
 	font-family: 'Raleway', 'Century Gothic', 'Arial';
 	font-size: 25px;
 }
 
-.post1 p {
+.posts p {
 	text-align: left;
-	padding: 5px 140px 10px 250px;
+	padding: 5px 100px 10px 100px;
 	font-family: 'Raleway', 'Century Gothic', 'Arial';
 	font-size: 20px;
 	line-height: 1.4;
+}
+
+.post1 {
+	width: 95%;
 }
 
 .blog h1 {
@@ -122,54 +108,142 @@
 	color: black;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 800px) and (orientation: landscape) {
+@media screen and (max-width: 500px) and (orientation: portrait) {
+	.banner .space {
+		z-index: 0;
+		background-image: url("../img/space.jpg");
+		height: 150px;
+		width: 100%;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: hidden;
+	}
 
-	.post1 h1 {
+	.banner h1 {
+		z-index: 2;
+		text-align: center;
+		color: white;
+		position: absolute;
+		top: 50px;
+		width: 100%;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 50px;
+		line-height: 50px;
+		letter-spacing: 3px;
+		text-shadow: rgba(0, 0, 0, 10) 5px 5px 2px;
+	}
+
+	.posts {
+		overflow: hidden;
+	}
+
+	.posts h1 {
 		text-align: left;
 		padding: 20px 20px 10px 20px;
 		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 18px;
+		font-size: 24px;
 	}
 
-	.post1 h2 {
+	.posts h2 {
 		text-align: left;
 		padding: 0px 20px 10px 20px;
 		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 16px;
+		font-size: 22px;
 	}
 
-	.post1 p {
+	.posts p {
 		text-align: left;
 		padding: 5px 20px 10px 20px;
 		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 14px;
+		font-size: 16px;
 		line-height: 1.4;
 	}
 
-}
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 800px) and (orientation: portrait) {
-
-	.post1 h1 {
-		text-align: left;
-		padding: 20px 100px 10px 80px;
+	.blog h1 {
+		padding: 25px 20px 5px 20px;
+		text-align: center;
 		font-family: 'Raleway', 'Century Gothic', 'Arial';
 		font-size: 18px;
+		color: #a9a9a9;
 	}
 
-	.post1 h2 {
-		text-align: left;
-		padding: 0px 140px 10px 80px;
+	.blog h2 {
+		padding: 0px 20px 40px 20px;
+		text-align: center;
 		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 16px;
+		font-size: 18px;
+		color: #a9a9a9;
+	}
+}
+
+@media screen and (max-width: 1060px) {
+	.banner .space {
+		z-index: 0;
+		background-image: url("../img/space.jpg");
+		height: 200px;
+		width: 100%;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: hidden;
 	}
 
-	.post1 p {
-		text-align: left;
-		padding: 5px 100px 10px 80px;
+	.banner h1 {
+		z-index: 2;
+		text-align: center;
+		color: white;
+		position: absolute;
+		top: 70px;
+		width: 100%;
 		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 14px;
+		font-size: 65px;
+		line-height: 50px;
+		letter-spacing: 3px;
+		text-shadow: rgba(0, 0, 0, 10) 5px 5px 2px;
+	}
+
+	.posts {
+		overflow: hidden;
+	}
+
+	.posts h1 {
+		text-align: left;
+		padding: 20px 20px 10px 20px;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 30px;
+	}
+
+	.posts h2 {
+		text-align: left;
+		padding: 0px 20px 10px 20px;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 22px;
+	}
+
+	.posts p {
+		text-align: left;
+		padding: 5px 20px 10px 20px;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 20px;
 		line-height: 1.4;
 	}
 
+	.blog h1 {
+		padding: 25px 20px 5px 20px;
+		text-align: center;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 20px;
+		color: #a9a9a9;
+	}
+
+	.blog h2 {
+		padding: 0px 20px 40px 20px;
+		text-align: center;
+		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-size: 20px;
+		color: #a9a9a9;
+	}
 }
