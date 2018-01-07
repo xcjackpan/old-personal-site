@@ -11,11 +11,11 @@ body, html {
 .nav-bar {
 	z-index: 10;
 	width: 100%;
-	height: 45.4px;
+	height: 50px;
 	overflow: hidden;
 	position: fixed;
 	text-align: right;
-	background-color: black;
+	background-color: #333;
 	opacity: 0.8;
 	padding: 4px 0px 4px 0px;
 }
@@ -24,14 +24,14 @@ body, html {
 	display: inline;
 	float: left;
 	min-width: 45px;
-	width: 2.0%;
+	width: 1.8%;
 	height: auto;
-	padding: 0px 5px 4px 5px;
-	margin: 0 0;
+	padding: 2px 5px 4px 5px;
+	margin: 0 3px;
 }
 
 .nav-bar ul {
-	margin: 0px 0px;
+	margin: 5px 0px 0px 0px;
 	line-height: 1.4;
 	padding-left: 0;
 	padding-right: 0;
@@ -40,19 +40,19 @@ body, html {
 
 .nav-bar li {
 	display: inline;
-	font-family: 'Raleway', 'Century Gothic', 'Arial';
+	font-family: 'Noto Serif', 'Century Gothic', 'Arial';
 	font-size: 28px;
 }
 
 .nav-bar li a {
 	text-align: center;
-	padding: 4px 80px 0px 80px;
+	padding: 0px 20px 0px 20px;
 	color: #d3d3d3;
 	text-decoration: none;
 }
 
 .nav-bar li a:hover {
-	color: white;
+	color: #eee;
 }
 
 .nav-bar .mobile-menu {
@@ -63,9 +63,9 @@ body, html {
 /* --Home Screen-- */
 /* --------------- */
 
-.space {
+.pic {
 	z-index: 0;
-	background-image: url("../img/space.jpg");
+	background-image: url("../img/bg.jpg");
 	height: 100%;
 	background-attachment: fixed;
 	background-position: center;
@@ -75,16 +75,15 @@ body, html {
 
 .banner h1 {
 	z-index: 2;
-	color: white;
+	color: #333;
 	position: absolute;
 	text-align: center;
-	top: 50%;
+	top: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-family: 'Raleway', 'Century Gothic', 'Arial';
+	font-family: 'Noto Serif', 'Century Gothic', 'Arial';
 	font-size: 90px;
 	letter-spacing: 3px;
-	text-shadow: rgba(0, 0, 0, 10) 5px 5px 2px;
 }
 
 /* ------------ */
@@ -94,10 +93,10 @@ body, html {
 .about-me {
 	position: relative;
 	height: auto;
-	background-color: white;
+	background-color: #eee;
 	text-align: center;
-	font-family: 'Raleway', 'Century Gothic', 'Arial';
-	color: black;
+	font-family: 'Lora', 'Century Gothic', 'Arial';
+	color: #333;
 	overflow: hidden;
 }
 
@@ -119,7 +118,7 @@ body, html {
 }
 
 .about-me p {
-	padding: 30px 80px 30px 80px;
+	padding: 30px 250px 30px 250px;
 	text-align: center;
 	font-size: 20px;
 	min-width: 50%;
@@ -135,17 +134,17 @@ body, html {
 }
 
 .about-me a i:hover {
-	color: black;
+	color: #333;
 }
 
 #filler-am {
 	height: 20px;
 }
 
-.space2 {
+.pic2 {
 	z-index: 0;
-	background-image: url("../img/space.jpg");
-	height: 300px;
+	background-image: url("../img/bg.jpg");
+	height: 150px;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -159,14 +158,14 @@ body, html {
 .resume {
 	position: relative;
 	height: auto;
-	background-color: white;
-	font-family: 'Raleway', 'Century Gothic', 'Arial';
-	color: black;
+	background-color: #eee;
+	font-family: 'Lora', 'Century Gothic', 'Arial';
+	color: #333;
 	width: 100%;
 	overflow: hidden;
 }
 
-#filler {
+.filler-res {
 	height: 30px;
 }
 
@@ -176,7 +175,7 @@ body, html {
 }
 
 .col1 a {
-	color: black;
+	color: #333;
 	text-decoration: none;
 }
 
@@ -185,42 +184,42 @@ body, html {
 }
 
 .col a:visited {
-	color: black;
+	color: #333;
 }
 
 .col1 h1 {
 	font-variant: small-caps;
 	clear: both;
-	font-size: 30px;
-	padding: 30px 0px 0px 100px;
+	font-size: 35px;
+	padding: 30px 0px 0px 140px;
 }
 
 .col1 h2 {
-	font-size: 20px;
-	padding: 15px 0px 0px 100px;
+	font-size: 18px;
+	padding: 15px 0px 0px 140px;
 	float: left;
 }
 
 .contact p {
-	font-size: 20px;
-	padding: 10px 0px 0px 100px;
+	font-size: 18px;
+	padding: 10px 0px 0px 140px	;
 	text-align: left;
 }
 
 .education h2 {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .education p {
 	clear: both;
-	font-size: 20px;
-	padding: 3px 30px 0px 100px;
+	font-size: 18px;
+	padding: 3px 60px 0px 140px;
 }
 
 .projects p {
 	clear: both;
-	font-size: 20px;
-	padding: 3px 30px 0px 100px;
+	font-size: 18px;
+	padding: 3px 60px 0px 140px;
 }
 
 .col2 {
@@ -230,34 +229,34 @@ body, html {
 
 .col2 h1 {
 	font-variant: small-caps;
-	font-size: 30px;
-	padding: 30px 35px 0px 60px;
+	font-size: 35px;
+	padding: 30px 80px 0px 48px;
 }
 
 .col2 h2 {
-	font-size: 20px;
-	padding: 15px 35px 0px 60px;
+	font-size: 18px;
+	padding: 15px 80px 0px 48px;
 	float: left;
 }
 
 .experience p {
 	clear: both;
-	font-size: 20px;
-	padding: 3px 50px 0px 60px;
+	font-size: 18px;
+	padding: 3px 80px 0px 48px;
 	text-align: left;
 }
 
 .awards p {
 	clear: both;
-	font-size: 19px;
-	padding: 15px 50px 0px 60px;
+	font-size: 18px;
+	padding: 15px 80px 0px 48px;
 	text-align: left;
 }
 
 .skills p {
 	clear: both;
-	font-size: 19px;
-	padding: 3px 50px 0px 60px;
+	font-size: 18px;
+	padding: 3px 80px 0px 48px;
 	text-align: left;
 }
 
@@ -266,30 +265,34 @@ body, html {
 	display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #000000;
-    margin: 1em 80px;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
 }
 
-#pdf {
+.pdf {
+	clear: both;
 	text-align: center;
 	font-size: 18px;
-	padding-top: 15px;
+}
+
+.pdf p {
+	padding-top: 20px;
 	padding-bottom: 25px;
 	padding-right: 25px;
 }
 
-#pdf a {
-	color: black;
+.pdf a {
+	color: #333;
 }
 
-#pdf a:visited {
-	color: black;
+.pdf a:visited {
+	color: #333;
 }
 
-.space3 {
+.pic3 {
 	z-index: 0;
-	background-image: url("../img/space.jpg");
-	height: 300px;
+	background-image: url("../img/bg.jpg");
+	height: 150px;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -307,12 +310,13 @@ body, html {
 .blog {
 	width: 100%;
 	overflow: hidden;
+	background-color: #eee;
 }
 
 .blog h2 {
 	text-align: center;
 	padding: 30px 10px;
-	font-family: 'Raleway', 'Century Gothic', 'Arial';
+	font-family: 'Noto Serif', 'Century Gothic', 'Arial';
 	font-size: 30px;
 }
 
@@ -322,22 +326,22 @@ body, html {
 
 .post1 h1 {
 	text-align: left;
-	padding: 40px 140px 10px 250px;
-	font-family: 'Raleway', 'Century Gothic', 'Arial';
+	padding: 40px 250px 10px 300px;
+	font-family: 'Noto Serif', 'Century Gothic', 'Arial';
 	font-size: 35px;
 }
 
 .post1 h2 {
 	text-align: left;
-	padding: 0px 140px 10px 250px;
-	font-family: 'Raleway', 'Century Gothic', 'Arial';
+	padding: 0px 140px 10px 300px;
+	font-family: 'Noto Serif', 'Century Gothic', 'Arial';
 	font-size: 25px;
 }
 
 .post1 p {
 	text-align: left;
-	padding: 5px 140px 10px 250px;
-	font-family: 'Raleway', 'Century Gothic', 'Arial';
+	padding: 5px 140px 10px 300px;
+	font-family: 'Lora', 'Century Gothic', 'Arial';
 	font-size: 20px;
 	line-height: 1.4;
 }
@@ -351,7 +355,7 @@ body, html {
 }
 
 .blog a {
-	color: black;
+	color: #333;
 	text-decoration: none;
 }
 
@@ -362,6 +366,135 @@ body, html {
 /* ------------------- */
 /* ---Media Queries--- */
 /* ------------------- */
+
+
+@media only screen and (max-width : 1147px) {
+
+	.col1 {
+		width: 100%;
+		clear: both;
+	}
+
+	.col1 h1 {
+		font-variant: small-caps;
+		clear: both;
+		font-size: 30px;
+		padding: 30px 50px 0px 60px;
+	}
+
+	.col1 h2 {
+		font-size: 20px;
+		padding: 15px 50px 0px 60px;
+		float: left;
+	}
+
+	.contact p {
+		font-size: 20px;
+		padding: 10px 50px 0px 60px;
+		text-align: left;
+	}
+
+	.education p {
+		clear: both;
+		font-size: 20px;
+		padding: 3px 50px 0px 60px;
+	}
+
+	.projects p {
+		clear: both;
+		font-size: 20px;
+		padding: 3px 50px 0px 60px;
+	}
+
+	.col2 {
+		width: 100%;
+		clear: both;
+	}
+
+	.col2 h1 {
+		font-variant: small-caps;
+		clear: both;
+		font-size: 30px;
+		padding: 30px 50px 0px 60px;
+	}
+
+	.col2 h2 {
+		font-size: 20px;
+		padding: 15px 50px 0px 60px;
+		float: left;
+	}
+
+	.experience p {
+		font-size: 20px;
+		padding: 10px 50px 0px 60px;
+		text-align: left;
+	}
+
+	.awards p {
+		clear: both;
+		font-size: 20px;
+		padding: 3px 50px 0px 60px;
+	}
+
+	.skills p {
+		clear: both;
+		font-size: 20px;
+		padding: 3px 50px 0px 60px;
+	}
+
+}	
+
+@media only screen and (max-width : 1100px) {
+
+	.about-me p {
+		padding: 30px 100px 30px 100px;
+		text-align: center;
+		font-size: 20px;
+		min-width: 50%;
+	}
+
+	#filler-blog {
+		height: 10px;
+	}
+
+	.blog {
+		width: 100%;
+		overflow: hidden;
+		text-align: center;
+	}
+
+	.blog h2 {
+		text-align: center;
+		padding: 30px 10px;
+		font-family: 'Noto Serif', 'Century Gothic', 'Arial';
+		font-size: 20px;
+	}
+
+	.post1 h1 {
+		text-align: left;
+		padding: 40px 50px 10px 50px;
+		font-family: 'Noto Serif', 'Century Gothic', 'Arial';
+		font-size: 28px;
+	}
+
+	.post1 h2 {
+		text-align: left;
+		padding: 0px 50px 10px 50px;
+		font-family: 'Noto Serif', 'Century Gothic', 'Arial';
+		font-size: 20px;
+	}
+
+	.post1 p {
+		text-align: left;
+		padding: 5px 50px 10px 50px;
+		font-family: 'Lora', 'Century Gothic', 'Arial';
+		font-size: 16px;
+		line-height: 1.4;
+	}
+}
+
+
+
 
 @media only screen and (max-width : 860px) {
 
@@ -396,11 +529,11 @@ body, html {
 		line-height: 1.3;
 		font-size: 27px;
 		cursor: pointer;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		font-family: 'Noto Serif', 'Century Gothic', 'Arial';
 	}
 
 	.mobile-menu a.dropdown-link:hover{
-		color: white;
+		color: #eee;
 	}
 
 	.mobile-dropdown {
@@ -428,118 +561,99 @@ body, html {
 		font-size: 25px;
 	}
 
+	.banner h1 {
+		font-size: 70px;
+	}
+
 }
 
-@media only screen and (max-width : 1000px) {
 
-	#filler-blog {
-		height: 10px;
-	}
-
-	.blog {
-		width: 100%;
-		overflow: hidden;
-		text-align: center;
-	}
-
-	.blog h2 {
-		text-align: center;
-		padding: 30px 10px;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 20px;
-	}
-
-	.post1 h1 {
-		text-align: left;
-		padding: 40px 15px 10px 20px;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 28px;
-	}
-
-	.post1 h2 {
-		text-align: left;
-		padding: 0px 15px 10px 20px;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 20px;
-	}
-
-	.post1 p {
-		text-align: left;
-		padding: 5px 15px 10px 20px;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 16px;
-		line-height: 1.4;
-	}
-}
-
-@media only screen and (max-width : 1147px) {
-
-	.col1 {
-		width: 100%;
-		clear: both;
-	}
+@media only screen and (max-width: 780px) {
 
 	.col1 h1 {
 		font-variant: small-caps;
 		clear: both;
-		font-size: 30px;
-		padding: 30px 0px 0px 60px;
+		font-size: 26px;
+		padding: 30px 50px 0px 60px;
 	}
 
 	.col1 h2 {
-		font-size: 20px;
-		padding: 15px 0px 0px 60px;
+		font-size: 16px;
+		padding: 15px 50px 0px 60px;
 		float: left;
 	}
 
 	.contact p {
-		font-size: 20px;
-		padding: 10px 0px 0px 60px;
+		font-size: 16px;
+		padding: 10px 50px 0px 60px;
 		text-align: left;
 	}
 
 	.education p {
 		clear: both;
-		font-size: 20px;
-		padding: 3px 30px 0px 60px;
+		font-size: 16px;
+		padding: 3px 50px 0px 60px;
 	}
 
 	.projects p {
 		clear: both;
-		font-size: 20px;
-		padding: 3px 30px 0px 60px;
+		font-size: 16px;
+		padding: 3px 50px 0px 60px;
 	}
 
-	.col2 {
-		width: 100%;
+	.col2 h1 {
+		font-variant: small-caps;
 		clear: both;
+		font-size: 26px;
+		padding: 30px 50px 0px 60px;
 	}
 
-}	
+	.col2 h2 {
+		font-size: 16px;
+		padding: 15px 50px 0px 60px;
+		float: left;
+	}
+
+	.experience p {
+		font-size: 16px;
+		padding: 10px 50px 0px 60px;
+		text-align: left;
+	}
+
+	.awards p {
+		clear: both;
+		font-size: 16px;
+		padding: 3px 50px 0px 60px;
+	}
+
+	.skills p {
+		clear: both;
+		font-size: 16px;
+		padding: 3px 50px 0px 60px;
+	}
+
+}
 
 @media screen and (max-width: 500px) and (orientation: portrait) {
 
 	.banner h1 {
 		z-index: 2;
-		color: white;
+		color: #333;
 		position: absolute;
 		text-align: center;
-		top: 50%;
+		top: 40%;
 		left: 50%;
 		transform: translate(-50%, -50%);
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		font-size: 50px;
+		font-size: 60px;
 		letter-spacing: 3px;
-		text-shadow: rgba(0, 0, 0, 10) 5px 5px 2px;
 	}
 
 	.about-me {
 		position: relative;
 		height: auto;
-		background-color: white;
+		background-color: #eee;
 		text-align: center;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		color: black;
+		color: #333;
 		overflow: hidden;
 	}
 
@@ -555,7 +669,7 @@ body, html {
 	.about-me p {
 		padding: 30px 31px 30px 31px;
 		text-align: center;
-		font-size: 20px;
+		font-size: 18px;
 		min-width: 50%;
 	}
 
@@ -563,9 +677,9 @@ body, html {
 		height: 20px;
 	}
 
-	.space2 {
+	.pic2 {
 		z-index: 0;
-		background-image: url("../img/space.jpg");
+		background-image: url("../img/bg.jpg");
 		height: 150px;
 		background-attachment: fixed;
 		background-position: center;
@@ -576,9 +690,8 @@ body, html {
 	.resume {
 		position: relative;
 		height: auto;
-		background-color: white;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
-		color: black;
+		background-color: #eee;
+		color: #333;
 		width: 100%;
 		overflow: hidden;
 	}
@@ -588,7 +701,7 @@ body, html {
 	}
 
 	.col1 a {
-		color: black;
+		color: #333;
 		text-decoration: none;
 	}
 
@@ -597,85 +710,76 @@ body, html {
 	}
 
 	.col a:visited {
-		color: black;
+		color: #333;
 	}
 
 	.col1 h1 {
 		font-variant: small-caps;
 		clear: both;
 		font-size: 24px;
-		padding: 20px 0px 0px 20px;
+		padding: 20px 35px 0px 35px;
 	}
 
 	.col1 h2 {
 		font-size: 16px;
-		padding: 10px 0px 8px 20px;
+		padding: 10px 35px 8px 35px;
 		float: left;
 	}
 
 	.contact p {
-		font-size: 14px;
-		padding: 10px 0px 0px 20px;
+		font-size: 16px;
+		padding: 10px 35px 0px 35px;
 		text-align: left;
 	}
 
 	.education h2 {
 		font-size: 16px;
-		padding: 10px 0px 5px 20px;
+		padding: 10px 35px 5px 35px;
 	}
 
 	.education p {
 		clear: both;
 		font-size: 16px;
-		padding: 3px 30px 0px 20px;
+		padding: 3px 35px 0px 35px;
 	}
 
 	.projects p {
 		clear: both;
 		font-size: 16px;
-		padding: 3px 30px 0px 20px;
+		padding: 3px 35px 0px 35px;
 	}
 
 	.col2 h1 {
 		font-variant: small-caps;
 		font-size: 24px;
-		padding: 20px 35px 0px 20px;
+		padding: 20px 35px 0px 35px;
 	}
 
 	.col2 h2 {
 		font-size: 16px;
-		padding: 10px 35px 8px 20px;
+		padding: 10px 35px 8px 35px;
 		float: left;
 	}
 
 	.experience p {
 		clear: both;
 		font-size: 16px;
-		padding: 3px 50px 0px 20px;
+		padding: 3px 35px 0px 35px;
 		text-align: left;
 	}
 
 	.awards p {
 		clear: both;
 		font-size: 16px;
-		padding: 15px 50px 0px 20px;
+		padding: 15px 35px 0px 35px;
 		text-align: left;
 	}
 
 	.skills p {
 		clear: both;
 		font-size: 16px;
-		padding: 3px 50px 0px 20px;
+		padding: 3px 35px 0px 35px;
 		text-align: left;
-	}
-
-	.resume hr {
-		clear: both;
-		display: block;
-	    height: 1px;
-	    border: 0;
-	    border-top: 1px solid #000000;
-	    margin: 1em 80px;
 	}
 
 	.pdf {
@@ -689,26 +793,16 @@ body, html {
 	}
 
 	#pdf a {
-		color: black;
+		color: #333;
 	}
 
 	#pdf a:visited {
-		color: black;
+		color: #333;
 	}
 
-	.space3 {
+	.pic3 {
 		z-index: 0;
-		background-image: url("../img/space.jpg");
-		height: 150px;
-		background-attachment: fixed;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-
-	.space4 {
-		z-index: 0;
-		background-image: url("../img/space.jpg");
+		background-image: url("../img/bg.jpg");
 		height: 150px;
 		background-attachment: fixed;
 		background-position: center;
@@ -729,28 +823,24 @@ body, html {
 	.blog h2 {
 		text-align: center;
 		padding: 30px 10px;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
 		font-size: 20px;
 	}
 
 	.post1 h1 {
 		text-align: left;
-		padding: 40px 15px 10px 20px;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		padding: 40px 35px 10px 35px;
 		font-size: 28px;
 	}
 
 	.post1 h2 {
 		text-align: left;
-		padding: 0px 15px 10px 20px;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		padding: 0px 35px 10px 35px;
 		font-size: 20px;
 	}
 
 	.post1 p {
 		text-align: left;
-		padding: 5px 15px 10px 20px;
-		font-family: 'Raleway', 'Century Gothic', 'Arial';
+		padding: 5px 35px 10px 35px;
 		font-size: 16px;
 		line-height: 1.4;
 	}
