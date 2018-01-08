@@ -277,13 +277,13 @@ body {
 		top: 15%;
 		width: 100%;
 		font-family: 'Noto Serif', 'Century Gothic', 'Arial';
-		font-size: 50px;
+		font-size: 55px;
 		line-height: 50px;
 		letter-spacing: 3px;
 	}
 
 	.posts {
-		padding: 50px 50px 40px 50px;
+		padding: 50px 20px 40px 20px;
 		overflow: hidden;
 	}
 
