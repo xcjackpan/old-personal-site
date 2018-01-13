@@ -299,6 +299,103 @@ body, html {
 	background-size: cover;
 }
 
+/* ------------ */
+/* --Projects-- */
+/* ------------ */
+
+.portfolio {
+	width: 100%;
+	overflow: hidden;
+	background-color: #eee;	
+}
+
+.portfolio h1 {
+	text-align: center;
+	padding: 30px 10px 0px 10px;
+	font-family: 'Noto Serif', 'Century Gothic', 'Arial';
+	font-size: 30px;
+}
+
+.portfolio a {
+	color: #333333;
+}
+
+.portfolio a:hover {
+	color: black;
+}
+
+.portfolio a:visited {
+	color: #333333;
+}
+
+.portfolio a:hover {
+	color: black;
+}
+
+.port-img img:hover {
+	outline: 1px solid black;
+}
+
+.port-col {
+	float: left;
+	width: 33.33%;
+}
+
+.port-col hr {
+	display: none;
+}
+
+.port-img {
+	text-align: center;
+	padding: 40px 10px 0px 10px;
+}
+
+.port-img img {
+	width: 70%;
+	height: 70%;
+}
+
+.port-name {
+	text-align: center;
+	padding: 30px 10px 0px 10px;
+	font-family: 'Noto Serif', 'Century Gothic', 'Arial';
+	font-size: 20px;
+}
+
+.port-desc {
+	text-align: center;
+	padding: 10px 50px 10px 50px;
+	font-family: 'Lora', 'Century Gothic', 'Arial';
+	font-size: 18px;
+}
+
+.port-link {
+	text-align: center;
+	padding: 3px 50px 0px 50px;
+	font-family: 'Lora', 'Century Gothic', 'Arial';
+	font-style: italic;
+	font-size: 18px;
+}
+
+.port-row {
+	display: table;
+	clear: both;
+}
+
+#filler-port {
+	height: 25px;
+}
+
+.pic4 {
+	z-index: 0;
+	background-image: url("../img/bg.jpg");
+	height: 150px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 /* -------- */
 /* --Blog-- */
 /* -------- */
@@ -493,8 +590,58 @@ body, html {
 	}
 }
 
+@media only screen and (max-width : 900px) {
+	.port-col {
+		width: 100%;
+	}
 
+	.port-img img {
+		width: 40%;
+		height: 40%;
+	}
 
+	.port-col hr {
+		display: block;
+	    height: 1px;
+	    border: 0;
+	    border-top: 1px solid #ccc;
+	    margin: 1em 0;
+	}
+
+	.portfolio h1 {
+		padding: 30px 10px 20px 10px;
+		font-family: 'Noto Serif', 'Century Gothic', 'Arial';
+		font-size: 30px;
+	}
+
+	.port-img {
+		text-align: center;
+		padding: 20px 10px 0px 10px;
+	}
+
+	.port-name {
+		text-align: center;
+		padding: 30px 10px 0px 10px;
+		font-family: 'Noto Serif', 'Century Gothic', 'Arial';
+		font-size: 20px;
+	}
+
+	.port-desc {
+		text-align: center;
+		padding: 10px 50px 20px 50px;
+		font-family: 'Lora', 'Century Gothic', 'Arial';
+		font-size: 18px;
+	}
+
+	.port-link {
+		text-align: center;
+		padding: 3px 50px 10px 50px;
+		font-family: 'Lora', 'Century Gothic', 'Arial';
+		font-style: italic;
+		font-size: 18px;
+	}
+
+}	
 
 @media only screen and (max-width : 860px) {
 
@@ -808,6 +955,18 @@ body, html {
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
+	}
+
+	.port-img img {
+		width: 70%;
+		height: 70%;
+	}
+
+	.port-desc {
+		text-align: center;
+		padding: 10px 30px 20px 30px;
+		font-family: 'Lora', 'Century Gothic', 'Arial';
+		font-size: 18px;
 	}
 
 	#filler-blog {

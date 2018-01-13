@@ -8,6 +8,12 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script type="text/javascript" src="scripts/script.js"></script>
 	<link rel="stylesheet" href="style/mainstyle.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+	<link rel="manifest" href="favicons/manifest.json">
+	<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>Jack Pan</title>
 </head>
@@ -15,11 +21,12 @@
 <body>
 
 <div class="nav-bar" id="NavBar">
-	<a href="#home"><img src="./img/logo.png"/></a>
+	<a href="#home"><img src="img/logo.png"/></a>
 
 	<ul>
-		<li><a href="#about-me">About Me</a></li>
+		<li><a href="#about-me">Me</a></li>
 		<li><a href="#resume">Resume</a></li>
+		<li><a href="#portfolio">Portfolio</a></li>
 		<li><a href="#blog">Blog</a></li>
 		<li>
 			<div class="mobile-menu"><a class="dropdown-link">&#9776;</a>
@@ -27,6 +34,7 @@
 					<li><a href="#home">Home</a></li>
 					<li><a href="#about-me">About Me</a></li>
 					<li><a href="#resume">Resume</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
 					<li><a href="#blog">Blog</a></li>
 				</ul>
 			</div>
@@ -48,7 +56,7 @@
 
 	<hr/>
 
-	<p>I'm a student at the University of Waterloo studying computer science. I'm particularly interested in developing websites and mobile applications, though I'm always eager to learn new things. This site features my professional resume and a link to my personal blog — so feel free to take a look around!</p>
+	<p>I'm a currently first-year student at the University of Waterloo studying computer science. I'm interested in all sorts of coding, and love to learn new things. Some other things that I happen to love include: dogs, competitive debate, <i>The Office</i>, and zoology. This site features my resume, my portfolio, and a personal blog — so feel free to take a look around!</p>
 	<a href="https://www.linkedin.com/in/xcjackpan/" target="_blank"><i class="fa fa-linkedin"></i></a>
 	<a href="https://github.com/xcjackpan" target="_blank"><i class="fa fa-github-alt"></i></a>
 	<a href="https://www.facebook.com/jack.pan.77" target="_blank"><i class="fa fa-facebook" style="padding-left: 30px"></i></a>
@@ -156,6 +164,53 @@
 
 <div class="pic3"></div>
 
+<div class="portfolio" id="portfolio">
+	<h1>Portfolio</h1>
+
+	<div class="port-row">
+
+		<div class="port-col">
+			<hr/>
+
+			<div class="port-img">
+				<a href="https://github.com/xcjackpan/AudioAnalyzer" target="_blank"><img class="audio-vis" src="img/audioicon.png"></a>
+			</div>
+			<h2 class="port-name">Audio Visualizer</h2>
+			<p class="port-desc">Web app that produces a visual animation for any music the user uploads. The user can choose between several "styles" of animation. Built in <b>JavaScript</b> using Web Audio API.</p>
+
+			<p class="port-link"><a href="pages/audiovisualiser/audiovis.html" target="_blank">Try it here!</a></p>
+		</div>
+
+		<div class="port-col">
+			<hr/>
+
+			<div class="port-img">
+				<a href="https://github.com/xcjackpan/Chroma" target="_blank"><img src="img/chromaicon.png"></a>
+			</div>
+			<h2 class="port-name">Chroma</h2>
+			<p class="port-desc">Smartphone game for Android where the player tries to match colors. Has multiple game modes and a high-score tracking system. Available on the <a href="https://play.google.com/store/apps/details?id=com.aelment.thatj.chroma">Google Play Store</a>. Built in <b>Java and XML with Android Studio</b>.</p>
+
+			<p class="port-link"><a href="pages/blog/chroma/26-12-chroma.html">Read the blog post here!</a></p>
+		</div>
+
+		<div class="port-col">
+			<hr/>
+
+			<div class="port-img">
+				<a href="https://github.com/xcjackpan/TapCounter" target="_blank"><img src="img/tapicon.png"></a>
+			</div>
+			<h2 class="port-name">Tap Counter</h2>
+			<p class="port-desc">Smartphone application for Android that mimics a tally counter. Built in <b>Java and XML with Android Studio</b>.</p>
+		</div>
+
+	</div>
+
+	<div id="filler-port">
+	</div>
+</div>
+
+<div class="pic4"></div>
+
 <div class="blog" id="blog">
 
 	<div id="filler-blog">
@@ -167,12 +222,12 @@
 			<h1>On Chroma and App Development</h1>
 			<h2>12/26/2017</h2>
 
-			<p>I began working on Chroma about a week after I picked up Android Studio. As it turns out, you can only follow along with Youtube tutorials for so long before you end up wanting to do your own thing. At the time, I only really knew the basics of building an Android app: things like setting up a button, listening for gestures, and changing activities. So, the first challenge that I faced was one of <a href="chroma/26-12-chroma.html">. . .</a></p>
+			<p>I began working on Chroma about a week after I picked up Android Studio. As it turns out, you can only follow along with Youtube tutorials for so long before you end up wanting to do your own thing. At the time, I only really knew the basics of building an Android app: things like setting up a button, listening for gestures, and changing activities. So, the first challenge that I faced was one of <a href="pages/blog/chroma/26-12-chroma.html">. . .</a></p>
 		</div>
 
 		<hr/>
 
-		<h2><a href="blog/blog.html">See all posts...</a></h2>
+		<h2><a href="pages/blog/blog.html">See all posts...</a></h2>
 
 </div>
 

@@ -1,0 +1,50 @@
+<DOCTYPE! html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+	</head>
+
+	<body>
+		<div id="screen">
+			<div id="panel" class="light">
+				<label id="songchoice"> choose a song
+					<input type="file" id="audio-file" accept="audio/*">
+				</label>
+
+				<hr id="l-one"/>
+				<ul id="type">
+					<label>pulse
+						<li><button type="button" id="pulse"></button></li>
+					</label>
+					<label>line
+						<li><button type="button" id="line"></button></li>
+					</label>
+					<label>wave
+						<li><button type="button" id="bar"></button></li>
+					</label>
+					<label>point
+						<li><button type="button" id="dot"></button></li>
+					</label>
+				</ul>
+
+				<hr id="l-two"/>
+				<ul id="color">
+					<label>light
+						<li><button type="button" id="light"></button></li>
+					</label>
+					<label>dark
+						<li><button type="button" id="dark"></button></li>
+					</label>
+				</ul>
+			</div>
+
+			<audio id="audio-controls" controls></audio>
+			<canvas id="canvas"></canvas>
+		</div>
+	</body>
+
+	<script type="text/javascript" src="script.js"></script>
+
+</html>

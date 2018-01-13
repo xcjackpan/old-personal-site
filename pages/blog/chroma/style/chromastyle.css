@@ -1,0 +1,241 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.banner .pic {
+	z-index: 0;
+	background-image: url("../img/bg.jpg");
+	height: 300px;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.banner h1 {
+	z-index: 2;
+	text-align: center;
+	position: absolute;
+	top: 130px;
+	width: 100%;
+	font-family: 'Noto Serif', 'Century Gothic', 'Arial';
+	font-size: 60px;
+	line-height: 50px;
+	letter-spacing: 3px;
+}
+
+.banner a {
+	color: #333;
+}
+
+.banner a:hover {
+	color: black;
+}
+
+.post {
+	background-color: #eee;
+	color: #333;
+}
+
+.post h1 {
+	text-align: center;
+	padding: 5px 200px 10px 200px;
+	font-family: 'Noto Serif', 'Century Gothic', 'Arial';
+	font-size: 35px;
+}
+
+.post h2 {
+	text-align: center;
+	padding: 0px 200px 40px 200px;
+	font-family: 'Noto Serif', 'Century Gothic', 'Arial';
+	font-size: 25px;
+}
+
+.post h3 {
+	text-align: left;
+	padding: 30px 200px 15px 200px;
+	font-family: 'Noto Serif', 'Century Gothic', 'Arial';
+	font-size: 25px;
+}
+
+.post p {
+	text-align: left;
+	padding: 5px 200px 10px 200px;
+	font-family: 'Lora', 'Century Gothic', 'Arial';
+	font-size: 20px;
+	line-height: 1.4;
+}
+
+.firstbuildimg, .secondbuildimg, .musicmanagerimg {
+	text-align: center;
+}
+
+.firstbuildimg img, .secondbuildimg img, .musicmanagerimg img {
+	width: 40%;
+	height: 40%;
+	padding: 20px 0px 20px 0px;
+}
+
+.caption p {
+	color: #a9a9a9;
+	text-align: center;
+	padding: 5px 200px 10px 200px;
+	font-family: 'Lora', 'Century Gothic', 'Arial';
+	font-size: 17px;
+}
+
+@media screen and (max-width: 1290px) {
+	.banner .pic {
+		z-index: 0;
+		background-image: url("../img/bg.jpg");
+		height: 200px;
+		overflow: hidden;
+		width: 100%;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.banner h1 {
+		z-index: 2;
+		text-align: center;
+		position: absolute;
+		top: 70px;
+		width: 100%;
+		font-family: 'Noto Serif', 'Century Gothic', 'Arial';
+		font-size: 50px;
+		line-height: 50px;
+		letter-spacing: 3px;
+	}
+
+	.post {
+		overflow: hidden;
+		width: 100%;
+	}
+
+	.post h1 {
+		text-align: center;
+		padding: 5px 140px 10px 140px;
+		font-family: 'Noto Serif', 'Century Gothic', 'Arial';
+		font-size: 35px;
+	}
+
+	.post h2 {
+		text-align: center;
+		padding: 0px 140px 40px 140px;
+		font-family: 'Noto Serif', 'Century Gothic', 'Arial';
+		font-size: 25px;
+	}
+
+	.post h3 {
+		text-align: left;
+		padding: 30px 140px 15px 140px;
+		font-family: 'Noto Serif', 'Century Gothic', 'Arial';
+		font-size: 25px;
+	}
+
+	.post p {
+		text-align: left;
+		padding: 5px 140px 10px 140px;
+		font-family: 'Lora', 'Century Gothic', 'Arial';
+		font-size: 20px;
+		line-height: 1.4;
+	}
+
+	.firstbuildimg img, .secondbuildimg img, .musicmanagerimg img {
+		width: 60%;
+		height: 60%;
+		padding: 20px 0px 20px 0px;
+	}
+
+	.caption p {
+		color: #a9a9a9;
+		text-align: center;
+		padding: 5px 140px 10px 140px;
+		font-family: 'Lora', 'Century Gothic', 'Arial';
+		font-size: 17px;
+	}
+}
+
+
+@media screen and (max-width: 600px) {
+	.banner .space {
+		z-index: 0;
+		background-image: url("../img/bg.jpg");
+		height: 100px;
+		overflow: hidden;
+		width: 100%;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.banner h1 {
+		z-index: 2;
+		text-align: center;
+		position: absolute;
+		top: 50px;
+		width: 100%;
+		font-family: 'Noto Serif', 'Century Gothic', 'Arial';
+		font-size: 40px;
+		line-height: 50px;
+		letter-spacing: 3px;
+	}
+
+	.post {
+		overflow: hidden;
+		width: 100%;
+	}
+
+	.post h1 {
+		text-align: center;
+		padding: 5px 20px 10px 20px;
+		font-family: 'Noto Serif', 'Century Gothic', 'Arial';
+		font-size: 30px;
+	}
+
+	.post h2 {
+		text-align: center;
+		padding: 0px 20px 40px 20px;
+		font-family: 'Noto Serif', 'Century Gothic', 'Arial';
+		font-size: 22px;
+	}
+
+	.post h3 {
+		text-align: left;
+		padding: 30px 20px 15px 20px;
+		font-family: 'Noto Serif', 'Century Gothic', 'Arial';
+		font-size: 22px;
+	}
+
+	.post p {
+		text-align: left;
+		padding: 5px 20px 10px 20px;
+		font-family: 'Lora', 'Century Gothic', 'Arial';
+		font-size: 16px;
+		line-height: 1.4;
+	}
+
+	.firstbuildimg, .secondbuildimg, .musicmanagerimg {
+		text-align: center;
+	}
+
+	.firstbuildimg img, .secondbuildimg img, .musicmanagerimg img {
+		width: 80%;
+		height: 80%;
+		padding: 20px 0px 20px 0px;
+	}
+
+	.caption p {
+		color: #a9a9a9;
+		text-align: center;
+		padding: 5px 20px 10px 20px;
+		font-family: 'Lora', 'Century Gothic', 'Arial';
+		font-size: 14px;
+	}
+}
