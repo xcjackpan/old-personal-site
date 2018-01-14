@@ -417,25 +417,25 @@ body, html {
 	font-size: 30px;
 }
 
-.post1 {
+.post {
 	width: 95%;
 }
 
-.post1 h1 {
+.post h1 {
 	text-align: left;
 	padding: 40px 250px 10px 300px;
 	font-family: 'Noto Serif', 'Century Gothic', 'Arial';
 	font-size: 35px;
 }
 
-.post1 h2 {
+.post h2 {
 	text-align: left;
 	padding: 0px 140px 10px 300px;
 	font-family: 'Noto Serif', 'Century Gothic', 'Arial';
 	font-size: 25px;
 }
 
-.post1 p {
+.post p {
 	text-align: left;
 	padding: 5px 140px 10px 300px;
 	font-family: 'Lora', 'Century Gothic', 'Arial';
@@ -567,21 +567,21 @@ body, html {
 		font-size: 20px;
 	}
 
-	.post1 h1 {
+	.post h1 {
 		text-align: left;
 		padding: 40px 50px 10px 50px;
 		font-family: 'Noto Serif', 'Century Gothic', 'Arial';
 		font-size: 28px;
 	}
 
-	.post1 h2 {
+	.post h2 {
 		text-align: left;
 		padding: 0px 50px 10px 50px;
 		font-family: 'Noto Serif', 'Century Gothic', 'Arial';
 		font-size: 20px;
 	}
 
-	.post1 p {
+	.post p {
 		text-align: left;
 		padding: 5px 50px 10px 50px;
 		font-family: 'Lora', 'Century Gothic', 'Arial';
@@ -985,19 +985,19 @@ body, html {
 		font-size: 20px;
 	}
 
-	.post1 h1 {
+	.post h1 {
 		text-align: left;
 		padding: 40px 35px 10px 35px;
 		font-size: 28px;
 	}
 
-	.post1 h2 {
+	.post h2 {
 		text-align: left;
 		padding: 0px 35px 10px 35px;
 		font-size: 20px;
 	}
 
-	.post1 p {
+	.post p {
 		text-align: left;
 		padding: 5px 35px 10px 35px;
 		font-size: 16px;

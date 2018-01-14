@@ -19,23 +19,10 @@
 	text-align: center;
 	color: #333;
 	position: absolute;
-	top: 23%;
+	top: 15%;
 	width: 100%;
 	font-family: 'Noto Serif', 'Century Gothic', 'Arial';
 	font-size: 74px;
-	line-height: 50px;
-	letter-spacing: 3px;
-}
-
-.banner h2 {
-	z-index: 2;
-	text-align: center;
-	position: absolute;
-	top: 180px;
-	width: 100%;
-	font-variant: italic;
-	font-family: 'Noto Serif', 'Century Gothic', 'Arial';
-	font-size: 30px;
 	line-height: 50px;
 	letter-spacing: 3px;
 }
@@ -55,6 +42,18 @@ body {
 
 .posts {
 	padding: 70px 150px 40px 150px;
+}
+
+.posts a {
+	color: #333;
+}
+
+.posts a:visited {
+	color: #333;
+}
+
+.posts a:hover {
+	color: black;
 }
 
 .posts h1 {
@@ -79,7 +78,7 @@ body {
 	line-height: 1.4;
 }
 
-.post1 {
+.post {
 	width: 95%;
 }
 
