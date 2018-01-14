@@ -76,11 +76,11 @@
 	line-height: 1.4;
 }
 
-.firstsite, .secondsite {
+.firstsite, .secondsite, .thirdsite {
 	text-align: center;
 }
 
-.firstsite img, .secondsite img {
+.firstsite img, .secondsite img, .thirdsite img {
 	width: 70%;
 	height: 70%;
 	padding: 20px 0px 20px 0px;
@@ -160,7 +160,7 @@
 		line-height: 1.4;
 	}
 
-	.firstsite img, .secondsite img {
+	.firstsite img, .secondsite img, .thirdsite img {
 		width: 80%;
 		height: 80%;
 		padding: 20px 0px 20px 0px;
@@ -242,7 +242,7 @@
 		line-height: 1.4;
 	}
 
-	.firstsite img, .secondsite img {
+	.firstsite img, .secondsite img, .thirdsite img {
 		width: 80%;
 		height: 80%;
 		padding: 20px 0px 20px 0px;
