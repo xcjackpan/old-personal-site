@@ -662,6 +662,10 @@ body, html {
 	    display: block;
 	}
 
+	.nav-bar img {
+		display: none;
+	}
+
 	.mobile-menu {
 		width: auto;
 		position: relative;
