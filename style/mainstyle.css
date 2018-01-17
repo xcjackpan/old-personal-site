@@ -285,6 +285,10 @@ body, html {
 	color: #333;
 }
 
+.pdf a:hover {
+	color: black;
+}
+
 .pdf a:visited {
 	color: #333;
 }
