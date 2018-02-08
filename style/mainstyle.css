@@ -555,6 +555,13 @@ body, html {
 		min-width: 50%;
 	}
 
+	.resume {
+		text-align: center;
+		display: block;
+		font-size: 22px;
+		padding: 40px 0px 20px 0px;
+	}
+
 	#filler-am {
 		height: 20px;
 	}
