@@ -137,163 +137,38 @@ body, html {
 	color: #333;
 }
 
+.resume {
+	text-align: center;
+	display: block;
+	font-size: 26px;
+	padding: 50px 0px 20px 0px;
+}
+
+.resume a {
+	font-family: 'Noto Serif', 'Century Gothic', 'Arial';
+	background-color: #eee;
+	color: #a9a9a9;
+	padding: 10px 20px 10px 20px;
+	border: 1px solid #a9a9a9;	
+	text-decoration: none;
+	cursor: pointer;	
+}
+
+.resume a:visited {
+	color: #a9a9a9;
+	text-decoration: none;
+}
+
+.resume a:hover {
+	color: #333;
+	border: 1px solid #333;		
+}
+
 #filler-am {
 	height: 20px;
 }
 
 .pic2 {
-	z-index: 0;
-	background-image: url("../img/bg.jpg");
-	height: 150px;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-/* ---------- */
-/* --Resume-- */
-/* ---------- */
-
-.resume {
-	position: relative;
-	height: auto;
-	background-color: #eee;
-	font-family: 'Lora', 'Century Gothic', 'Arial';
-	color: #333;
-	width: 100%;
-	overflow: hidden;
-}
-
-.filler-res {
-	height: 30px;
-}
-
-.col1 {
-	width: 50%;
-	float: left;
-}
-
-.col1 a {
-	color: #333;
-	text-decoration: none;
-}
-
-.col1 a:hover {
-	text-decoration: underline;
-}
-
-.col a:visited {
-	color: #333;
-}
-
-.col1 h1 {
-	font-variant: small-caps;
-	clear: both;
-	font-size: 35px;
-	padding: 30px 0px 0px 140px;
-}
-
-.col1 h2 {
-	font-size: 18px;
-	padding: 15px 0px 0px 140px;
-	float: left;
-}
-
-.contact p {
-	font-size: 18px;
-	padding: 10px 0px 0px 140px	;
-	text-align: left;
-}
-
-.education h2 {
-	font-size: 18px;
-}
-
-.education p {
-	clear: both;
-	font-size: 18px;
-	padding: 3px 60px 0px 140px;
-}
-
-.projects p {
-	clear: both;
-	font-size: 18px;
-	padding: 3px 60px 0px 140px;
-}
-
-.col2 {
-	width: 50%;
-	float: left;
-}
-
-.col2 h1 {
-	font-variant: small-caps;
-	font-size: 35px;
-	padding: 30px 80px 0px 48px;
-}
-
-.col2 h2 {
-	font-size: 18px;
-	padding: 15px 80px 0px 48px;
-	float: left;
-}
-
-.experience p {
-	clear: both;
-	font-size: 18px;
-	padding: 3px 80px 0px 48px;
-	text-align: left;
-}
-
-.awards p {
-	clear: both;
-	font-size: 18px;
-	padding: 15px 80px 0px 48px;
-	text-align: left;
-}
-
-.skills p {
-	clear: both;
-	font-size: 18px;
-	padding: 3px 80px 0px 48px;
-	text-align: left;
-}
-
-.resume hr {
-	clear: both;
-	display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-}
-
-.pdf {
-	clear: both;
-	text-align: center;
-	font-size: 18px;
-}
-
-.pdf p {
-	padding-top: 20px;
-	padding-bottom: 25px;
-	padding-right: 25px;
-}
-
-.pdf a {
-	color: #333;
-}
-
-.pdf a:hover {
-	color: black;
-}
-
-.pdf a:visited {
-	color: #333;
-}
-
-.pic3 {
 	z-index: 0;
 	background-image: url("../img/bg.jpg");
 	height: 150px;
@@ -330,10 +205,6 @@ body, html {
 
 .portfolio a:visited {
 	color: #333333;
-}
-
-.portfolio a:hover {
-	color: black;
 }
 
 .port-img img:hover {
@@ -377,7 +248,6 @@ body, html {
 	text-align: center;
 	padding: 3px 50px 0px 50px;
 	font-family: 'Lora', 'Century Gothic', 'Arial';
-	font-style: italic;
 	font-size: 18px;
 }
 
@@ -467,83 +337,6 @@ body, html {
 /* ------------------- */
 /* ---Media Queries--- */
 /* ------------------- */
-
-
-@media only screen and (max-width : 1147px) {
-
-	.col1 {
-		width: 100%;
-		clear: both;
-	}
-
-	.col1 h1 {
-		font-variant: small-caps;
-		clear: both;
-		font-size: 30px;
-		padding: 30px 50px 0px 60px;
-	}
-
-	.col1 h2 {
-		font-size: 20px;
-		padding: 15px 50px 0px 60px;
-		float: left;
-	}
-
-	.contact p {
-		font-size: 20px;
-		padding: 10px 50px 0px 60px;
-		text-align: left;
-	}
-
-	.education p {
-		clear: both;
-		font-size: 20px;
-		padding: 3px 50px 0px 60px;
-	}
-
-	.projects p {
-		clear: both;
-		font-size: 20px;
-		padding: 3px 50px 0px 60px;
-	}
-
-	.col2 {
-		width: 100%;
-		clear: both;
-	}
-
-	.col2 h1 {
-		font-variant: small-caps;
-		clear: both;
-		font-size: 30px;
-		padding: 30px 50px 0px 60px;
-	}
-
-	.col2 h2 {
-		font-size: 20px;
-		padding: 15px 50px 0px 60px;
-		float: left;
-	}
-
-	.experience p {
-		font-size: 20px;
-		padding: 10px 50px 0px 60px;
-		text-align: left;
-	}
-
-	.awards p {
-		clear: both;
-		font-size: 20px;
-		padding: 3px 50px 0px 60px;
-	}
-
-	.skills p {
-		clear: both;
-		font-size: 20px;
-		padding: 3px 50px 0px 60px;
-	}
-
-}	
 
 @media only screen and (max-width : 1100px) {
 
@@ -723,72 +516,6 @@ body, html {
 }
 
 
-@media only screen and (max-width: 780px) {
-
-	.col1 h1 {
-		font-variant: small-caps;
-		clear: both;
-		font-size: 26px;
-		padding: 30px 50px 0px 60px;
-	}
-
-	.col1 h2 {
-		font-size: 16px;
-		padding: 15px 50px 0px 60px;
-		float: left;
-	}
-
-	.contact p {
-		font-size: 16px;
-		padding: 10px 50px 0px 60px;
-		text-align: left;
-	}
-
-	.education p {
-		clear: both;
-		font-size: 16px;
-		padding: 3px 50px 0px 60px;
-	}
-
-	.projects p {
-		clear: both;
-		font-size: 16px;
-		padding: 3px 50px 0px 60px;
-	}
-
-	.col2 h1 {
-		font-variant: small-caps;
-		clear: both;
-		font-size: 26px;
-		padding: 30px 50px 0px 60px;
-	}
-
-	.col2 h2 {
-		font-size: 16px;
-		padding: 15px 50px 0px 60px;
-		float: left;
-	}
-
-	.experience p {
-		font-size: 16px;
-		padding: 10px 50px 0px 60px;
-		text-align: left;
-	}
-
-	.awards p {
-		clear: both;
-		font-size: 16px;
-		padding: 3px 50px 0px 60px;
-	}
-
-	.skills p {
-		clear: both;
-		font-size: 16px;
-		padding: 3px 50px 0px 60px;
-	}
-
-}
-
 @media screen and (max-width: 500px) and (orientation: portrait) {
 
 	.banner h1 {
@@ -833,129 +560,6 @@ body, html {
 	}
 
 	.pic2 {
-		z-index: 0;
-		background-image: url("../img/bg.jpg");
-		height: 150px;
-		background-attachment: fixed;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-
-	.resume {
-		position: relative;
-		height: auto;
-		background-color: #eee;
-		color: #333;
-		width: 100%;
-		overflow: hidden;
-	}
-
-	#filler-res {
-		height: 20px;
-	}
-
-	.col1 a {
-		color: #333;
-		text-decoration: none;
-	}
-
-	.col1 a:hover {
-		text-decoration: underline;
-	}
-
-	.col a:visited {
-		color: #333;
-	}
-
-	.col1 h1 {
-		font-variant: small-caps;
-		clear: both;
-		font-size: 24px;
-		padding: 20px 35px 0px 35px;
-	}
-
-	.col1 h2 {
-		font-size: 16px;
-		padding: 10px 35px 8px 35px;
-		float: left;
-	}
-
-	.contact p {
-		font-size: 16px;
-		padding: 10px 35px 0px 35px;
-		text-align: left;
-	}
-
-	.education h2 {
-		font-size: 16px;
-		padding: 10px 35px 5px 35px;
-	}
-
-	.education p {
-		clear: both;
-		font-size: 16px;
-		padding: 3px 35px 0px 35px;
-	}
-
-	.projects p {
-		clear: both;
-		font-size: 16px;
-		padding: 3px 35px 0px 35px;
-	}
-
-	.col2 h1 {
-		font-variant: small-caps;
-		font-size: 24px;
-		padding: 20px 35px 0px 35px;
-	}
-
-	.col2 h2 {
-		font-size: 16px;
-		padding: 10px 35px 8px 35px;
-		float: left;
-	}
-
-	.experience p {
-		clear: both;
-		font-size: 16px;
-		padding: 3px 35px 0px 35px;
-		text-align: left;
-	}
-
-	.awards p {
-		clear: both;
-		font-size: 16px;
-		padding: 15px 35px 0px 35px;
-		text-align: left;
-	}
-
-	.skills p {
-		clear: both;
-		font-size: 16px;
-		padding: 3px 35px 0px 35px;
-		text-align: left;
-	}
-
-	.pdf {
-		text-align: center;
-		padding: 0px 10px;
-	}
-
-	#pdf {
-		text-align: center;
-		font-size: 16px;
-	}
-
-	#pdf a {
-		color: #333;
-	}
-
-	#pdf a:visited {
-		color: #333;
-	}
-
-	.pic3 {
 		z-index: 0;
 		background-image: url("../img/bg.jpg");
 		height: 150px;
