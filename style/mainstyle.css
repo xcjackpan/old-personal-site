@@ -118,10 +118,10 @@ body, html {
 }
 
 .about-me p {
-	padding: 30px 250px 30px 250px;
+	padding: 30px 30% 30px 30%;
 	text-align: center;
 	font-size: 20px;
-	min-width: 50%;
+	width: 40%;
 }
 
 .about-me a i {
@@ -226,8 +226,8 @@ body, html {
 }
 
 .port-img img {
-	width: 70%;
-	height: 70%;
+	width: 75%;
+	height: 75%;
 }
 
 .port-name {
@@ -239,7 +239,7 @@ body, html {
 
 .port-desc {
 	text-align: center;
-	padding: 10px 50px 10px 50px;
+	padding: 10px 30px 10px 30px;
 	font-family: 'Lora', 'Century Gothic', 'Arial';
 	font-size: 18px;
 }
@@ -252,6 +252,8 @@ body, html {
 }
 
 .port-row {
+	width: 80%;
+	margin: 0 auto;	
 	display: table;
 	clear: both;
 }
@@ -292,26 +294,28 @@ body, html {
 }
 
 .post {
-	width: 95%;
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;	
 }
 
 .post h1 {
 	text-align: left;
-	padding: 40px 250px 10px 300px;
+	padding: 40px 20% 10px 20%;
 	font-family: 'Noto Serif', 'Century Gothic', 'Arial';
 	font-size: 35px;
 }
 
 .post h2 {
 	text-align: left;
-	padding: 0px 140px 10px 300px;
+	padding: 0px 20% 10px 20%;
 	font-family: 'Noto Serif', 'Century Gothic', 'Arial';
 	font-size: 25px;
 }
 
 .post p {
 	text-align: left;
-	padding: 5px 140px 10px 300px;
+	padding: 5px 20% 10px 20%;
 	font-family: 'Lora', 'Century Gothic', 'Arial';
 	font-size: 20px;
 	line-height: 1.4;
@@ -341,10 +345,9 @@ body, html {
 @media only screen and (max-width : 1100px) {
 
 	.about-me p {
-		padding: 30px 100px 30px 100px;
+		padding: 30px 30% 30px 30%;
 		text-align: center;
 		font-size: 20px;
-		min-width: 50%;
 	}
 
 	#filler-blog {
@@ -387,7 +390,17 @@ body, html {
 	}
 }
 
+@media only screen and (max-width: 1000px) {
+	.about-me p {
+		padding: 30px 10% 30px 10%;
+		text-align: center;
+		font-size: 20px;
+		width: auto;
+	}
+}
+
 @media only screen and (max-width : 900px) {
+
 	.port-col {
 		width: 100%;
 	}
